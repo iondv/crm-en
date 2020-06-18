@@ -1,0 +1,13 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": "SMEV",
+  "taskClassification": null,
+  "name": "РЕГИОНАЛЬНЫЕ ЗАПРОСЫ (УМЗ)",
+  "id": "4eda24f0-2003-11e8-8584-53a6dbc99859",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

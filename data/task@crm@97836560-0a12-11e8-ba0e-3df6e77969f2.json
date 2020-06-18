@@ -1,0 +1,21 @@
+{
+  "typeComunication": "mail",
+  "support": "RPGU",
+  "dateCreate": "2018-02-05T01:19:20.246Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": true,
+  "sourseTask": "phone",
+  "notFoundScenario": true,
+  "id": "97836560-0a12-11e8-ba0e-3df6e77969f2",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "supportScenario0": "75278ac0-af11-11e7-a7c8-8b963caaa9cd",
+  "comment": "Консультация по услугам ЗАГС",
+  "_editor": "ykozelsky@local",
+  "___workflowStatus": {}
+}

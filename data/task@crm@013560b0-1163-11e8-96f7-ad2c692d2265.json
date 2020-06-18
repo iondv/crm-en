@@ -1,0 +1,21 @@
+{
+  "typeComunication": "mail",
+  "support": "RPGU",
+  "dateCreate": "2018-02-14T08:42:35.451Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": true,
+  "sourseTask": "phone",
+  "notFoundScenario": true,
+  "id": "013560b0-1163-11e8-96f7-ad2c692d2265",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "supportScenario0": "29e74600-bae1-11e7-a7c8-8b963caaa9cd",
+  "comment": "Консультация по заполнению формы",
+  "_editor": "ykozelsky@local",
+  "___workflowStatus": {}
+}

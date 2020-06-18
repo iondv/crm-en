@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": true,
+  "needRefactoringScenario": false,
+  "support": "SMEV",
+  "taskClassification": null,
+  "name": "ОБРАЩЕНИЕ БЕЗ КЛАССИФИКАЦИИ",
+  "scenario": "Любые вопросы служащего по СМЭВ без определенной классификации﻿.<br>",
+  "id": "72218540-54ea-11e8-9e03-0bb296a70678",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

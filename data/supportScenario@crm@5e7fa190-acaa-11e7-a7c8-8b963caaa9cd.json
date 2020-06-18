@@ -1,0 +1,13 @@
+{
+  "support": "RPGU",
+  "taskClassification": null,
+  "name": "ДЕТСКИЙ САД",
+  "id": "5e7fa190-acaa-11e7-a7c8-8b963caaa9cd",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "okrivobokov@local",
+  "___workflowStatus": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "crm-ru",
+  "description": "CRM",
+  "version": "1.1.4",
+  "homepage": "http://crm.iondv.ru/",
+  "bugs": {
+    "url": "https://github.com/iondv/crm-ru/issues"
+  },
+  "engines": {
+    "ion": "3.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iondv/crm-ru.git"
+  },
+  "ionModulesDependencies": {
+    "ionadmin": "3.0.2",
+    "registry": "3.0.6",
+    "dashboard": "1.1.8",
+    "report": "2.0.2"
+  },
+  "ionMetaDependencies": {},
+  "devDependencies": {},
+  "dependencies": {
+    "base64-js": "*",
+    "xpath": "*",
+    "xmldom": "*",
+    "adm-zip": "*"
+  }
+}

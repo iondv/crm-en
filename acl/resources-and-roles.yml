@@ -1,0 +1,6 @@
+roles:
+  - id: Admins
+    name: Администраторы
+    permissions:
+      "*":
+        - full

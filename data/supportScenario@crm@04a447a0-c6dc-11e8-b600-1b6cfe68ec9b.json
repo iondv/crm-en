@@ -1,0 +1,14 @@
+{
+  "support": null,
+  "taskClassification": "1b584c80-c6d7-11e8-b600-1b6cfe68ec9b",
+  "name": "Обращение без классификации РПГМУ СО",
+  "id": "04a447a0-c6dc-11e8-b600-1b6cfe68ec9b",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Редкие обращения, которые не подходят ни под одну классификацию. В тяжёлом случае можно проконсультироваться с администратором портала.</i><br><br><i>Также в комментарии надо коротко описать суть обращения. Это нужно для формирования ежемесячного отчёта.</i>",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

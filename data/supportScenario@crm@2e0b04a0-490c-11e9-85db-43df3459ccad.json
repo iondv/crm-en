@@ -1,0 +1,13 @@
+{
+  "support": null,
+  "taskClassification": "9ae1c850-acac-11e7-a7c8-8b963caaa9cd",
+  "name": "Не приходят уведомления о новых запросах",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Служащий просит разобраться, почему его не приходят уведомления о новых запросах, заявлениях на электронную почту, хотя раньше приходили.</i><br><br><i><b>Действия оператора:</b><br><br></i><i></i>- просим назвать ФИО или логин в СМЭВ<br><i></i>- просим предоставить примеры запросов, оповещения о которых не пришли<br>- создаем задачу на администратора СМЭВ<br>",
+  "id": "2e0b04a0-490c-11e9-85db-43df3459ccad",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "okrivobokov@local",
+  "_editor": "okrivobokov@local"
+}

@@ -1,0 +1,16 @@
+{
+  "code": "contact",
+  "orderNumber": 25,
+  "type": 0,
+  "title": "",
+  "caption": "Клиенты",
+  "classname": null,
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.7"
+}

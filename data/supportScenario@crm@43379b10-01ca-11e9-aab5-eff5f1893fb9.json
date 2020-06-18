@@ -1,0 +1,13 @@
+{
+  "support": "RPGU",
+  "taskClassification": null,
+  "name": "ПРОПУЩЕННЫЕ ВЫЗОВЫ",
+  "scenario": "В комментариях обязательно указать причину пропуска&nbsp;",
+  "id": "43379b10-01ca-11e9-aab5-eff5f1893fb9",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

@@ -1,0 +1,15 @@
+{
+  "surname": "Кривобоков",
+  "name": "Олег",
+  "patronymic": "Александрович",
+  "position": "специалист поддержки информационных систем",
+  "organPerson": "73adb370-ac89-11e7-a7c8-8b963caaa9cd",
+  "address": "г. Хабаровск, ул. Толстого, д. 12",
+  "id": "84a6a420-ac89-11e7-a7c8-8b963caaa9cd",
+  "eventSend": [],
+  "event": [],
+  "_class": "person@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "___workflowStatus": {}
+}

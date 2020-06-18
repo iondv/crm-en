@@ -1,0 +1,20 @@
+{
+  "typeComunication": "mail",
+  "support": "RPGU",
+  "supportScenario0": "c9984e40-aca6-11e7-a7c8-8b963caaa9cd",
+  "supportScenario1": "ee0e3080-aca8-11e7-a7c8-8b963caaa9cd",
+  "supportScenarioComplite": false,
+  "notFoundScenario": false,
+  "dateCreate": "2018-03-05T06:46:59.080Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "sourseTask": "phone",
+  "id": "00a88f90-2041-11e8-8584-53a6dbc99859",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "___workflowStatus": {}
+}

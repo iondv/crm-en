@@ -1,0 +1,12 @@
+{
+  "support": "RPGU (SAKHALIN)",
+  "taskClassification": null,
+  "name": "ЗАЯВЛЕНИЕ",
+  "scenario": "111",
+  "id": "1cb126f0-d808-11e8-9796-f574ea641f27",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local"
+}

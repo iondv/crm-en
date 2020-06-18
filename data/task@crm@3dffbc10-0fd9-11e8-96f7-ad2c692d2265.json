@@ -1,0 +1,21 @@
+{
+  "typeComunication": "call",
+  "support": "SMEV",
+  "dateCreate": "2018-02-12T09:43:55.729Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": true,
+  "sourseTask": "phone",
+  "notFoundScenario": false,
+  "id": "3dffbc10-0fd9-11e8-96f7-ad2c692d2265",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "supportScenario0": "9ae1c850-acac-11e7-a7c8-8b963caaa9cd",
+  "supportScenario1": "e253e1f0-acac-11e7-a7c8-8b963caaa9cd",
+  "_editor": "ykozelsky@local",
+  "___workflowStatus": {}
+}

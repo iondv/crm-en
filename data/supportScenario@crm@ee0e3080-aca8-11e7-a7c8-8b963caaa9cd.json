@@ -1,0 +1,14 @@
+{
+  "support": null,
+  "taskClassification": "c9984e40-aca6-11e7-a7c8-8b963caaa9cd",
+  "name": "Отмена записи к врачу",
+  "scenario": "<div><b>Подсказка оператору:</b><br><br><i>Этот сценарий зачитываем, если гражданин спрашивает, как отменить запись на приём.</i><br><br><b>Текст оператора:<br></b><br>Для того, чтобы отменить запись к врачу вам нужно перейти в Личный кабинет, т.е. в верху справа на сайте нужно кликнуть по ссылке, где указана фамилия. Затем в левом боковом меню перейти в раздел \"Запись на приём\". Напротив ненужной записи нажать кнопку \"Отменить запись\".﻿<br></div>",
+  "id": "ee0e3080-aca8-11e7-a7c8-8b963caaa9cd",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "mariia@local",
+  "___workflowStatus": {}
+}

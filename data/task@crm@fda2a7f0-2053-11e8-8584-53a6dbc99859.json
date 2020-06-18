@@ -1,0 +1,20 @@
+{
+  "typeComunication": "mail",
+  "support": "SMEV",
+  "supportScenario0": "4eda24f0-2003-11e8-8584-53a6dbc99859",
+  "supportScenario1": "3c35d8c0-2004-11e8-8584-53a6dbc99859",
+  "supportScenarioComplite": false,
+  "notFoundScenario": false,
+  "dateCreate": "2018-03-05T09:02:54.447Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "sourseTask": "phone",
+  "id": "fda2a7f0-2053-11e8-8584-53a6dbc99859",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "___workflowStatus": {}
+}

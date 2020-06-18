@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": null,
+  "taskClassification": "c9984e40-aca6-11e7-a7c8-8b963caaa9cd",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Этот сценарий зачитываем, если гражданин не может записать в поликлинику № 3 г. Хабаровск - ответ системы - пользователь не найден.</i><br><br><b>Текст оператора:</b><br><br>Мы можем посоветовать вам написать об ошибке через \"Обратную связь\". В настоящее время о проблеме известно, ответа от Минздрава пока нет .<br>",
+  "name": "Ошибка записи в поликлинику № 3 г. Хабаровск",
+  "id": "5f285670-2cd7-11e8-b249-ddbc2640d7d2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

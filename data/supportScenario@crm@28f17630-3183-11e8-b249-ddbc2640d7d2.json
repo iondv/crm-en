@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": null,
+  "taskClassification": "bf151c80-cf4e-11e7-83b1-e35967ef23c0",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Редкие обращения, которые не попадают ни под одну классификацию. В тяжёлом случае можно проконсультироваться с администратором СМЭВ.</i>",
+  "name": "Обращение без классификации",
+  "id": "28f17630-3183-11e8-b249-ddbc2640d7d2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

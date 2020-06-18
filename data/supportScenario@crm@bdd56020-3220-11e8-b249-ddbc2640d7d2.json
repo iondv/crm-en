@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": null,
+  "taskClassification": "75278ac0-af11-11e7-a7c8-8b963caaa9cd",
+  "name": "Размер прикрепляемого документа",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Этот сценарий зачитываем, если гражданин хочет прикрепить документ к подаваемому заявлению.</i><br><br><b>Текст оператора:</b><br><br>Максимальный допустимый размер одного прикрепляемого документа не должен превышать 7,5 МБ (не касается ГЭ). Также прикреплять можно документы в архиве zip.",
+  "id": "bdd56020-3220-11e8-b249-ddbc2640d7d2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

@@ -1,0 +1,12 @@
+{
+  "id": "bf151c80-cf4e-11e7-83b1-e35967ef23c0",
+  "support": "RPGU",
+  "taskClassification": null,
+  "name": "ОБРАЩЕНИЯ БЕЗ КЛАССИФИКАЦИИ РПГУ",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": "IONDV",
+  "taskClassification": null,
+  "name": "Завершение звонка",
+  "scenario": "Если звонят по банковским гарантиям, тендерным займам - ответ \"Нас не интересует, до свидания\". <br>Если просят соединить с директором, с бухгалтерией, надо уточнить, по какому вопросу звонят - если не сообщают или по вопросам банк. гарантий, тендерных займов и т.д. - \"Нас не интересует, до свидания\".<br><br>Списывать звонки на орг. таск для общих вопросов<br>",
+  "id": "cb660130-2e3e-11e8-b249-ddbc2640d7d2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

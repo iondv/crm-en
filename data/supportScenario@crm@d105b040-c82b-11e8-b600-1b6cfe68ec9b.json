@@ -1,0 +1,13 @@
+{
+  "support": "RPGU (SAKHALIN)",
+  "taskClassification": "dafd1770-c6da-11e8-b600-1b6cfe68ec9b",
+  "name": "Уточнение адреса и режима работы МФЦ ",
+  "scenario": "<b><i>Подсказка оператору: </i></b><br><br>Заявитель обращается за уточнением адреса нахождения МФЦ, режима его работы, телефона. Посмотреть адрес можно либо на заглавной странице портала в разделе Запись в МФЦ, либо на сайте <a target=\"_blank\" rel=\"nofollow\" href=\"http://mfc.admsakhalin.ru/mfc/otdeleniya-mfts/1135/\" title=\"Link: http://mfc.admsakhalin.ru/mfc/otdeleniya-mfts/1135/\">http://mfc.admsakhalin.ru/mfc/otdeleniya-mfts/1135/</a><br>Желательно&nbsp;не&nbsp;отказывать&nbsp;заявителю&nbsp;в&nbsp;помощи и&nbsp;не&nbsp;отсылать&nbsp;на&nbsp;портал, может&nbsp;быть&nbsp;у&nbsp;него отсутствует возможность прямо&nbsp;сейчас&nbsp;посмотреть&nbsp;эти&nbsp;данные. Предлагаем&nbsp;на&nbsp;выбор&nbsp;несколько&nbsp;адресов,&nbsp;озвучиваем&nbsp;режим&nbsp;работы.&nbsp;Так&nbsp;же&nbsp;желательно подсказать&nbsp;заявителю,&nbsp;что&nbsp;через&nbsp;портал&nbsp;Сахалина&nbsp;реализована&nbsp;возможность&nbsp;предварительной&nbsp;записи&nbsp;в МФЦ.&nbsp;﻿<br><br><br>",
+  "id": "d105b040-c82b-11e8-b600-1b6cfe68ec9b",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

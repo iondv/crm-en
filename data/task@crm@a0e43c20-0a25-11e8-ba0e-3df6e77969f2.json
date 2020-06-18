@@ -1,0 +1,20 @@
+{
+  "typeComunication": "call",
+  "support": "NE PO ADRESU",
+  "dateCreate": "2018-02-05T03:35:36.418Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": false,
+  "sourseTask": "phone",
+  "notFoundScenario": false,
+  "id": "a0e43c20-0a25-11e8-ba0e-3df6e77969f2",
+  "creatorLogin": "koleg@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "supportScenario0": "7ca0fc70-ad7a-11e7-a7c8-8b963caaa9cd",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

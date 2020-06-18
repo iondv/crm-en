@@ -1,0 +1,13 @@
+{
+  "typeComunication": "call",
+  "worker": "891d8640-ac89-11e7-a7c8-8b963caaa9cd",
+  "creatDate": "2017-10-09T00:34:25.166Z",
+  "id": "99f692e0-ac89-11e7-a7c8-8b963caaa9cd",
+  "oworker": "99f692e1-ac89-11e7-a7c8-8b963caaa9cd",
+  "_class": "event@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "subject": "Госэкспертиза",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

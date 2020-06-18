@@ -1,0 +1,13 @@
+{
+  "support": "SUPD",
+  "taskClassification": null,
+  "name": "Создание значений показателей",
+  "scenario": "Создать значение показателей можно только утилитой, вручную оно не создается",
+  "id": "a0d88700-c22a-11e8-8f56-4130dd6de4c0",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

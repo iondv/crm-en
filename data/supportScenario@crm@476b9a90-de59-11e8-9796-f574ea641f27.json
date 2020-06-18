@@ -1,0 +1,12 @@
+{
+  "support": "RPGU (SAKHALIN)",
+  "taskClassification": null,
+  "name": "ОБРАЩЕНИЯ НЕ ПО АДРЕСУ (САХАЛИН)",
+  "id": "476b9a90-de59-11e8-9796-f574ea641f27",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

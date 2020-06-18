@@ -1,0 +1,13 @@
+{
+  "support": null,
+  "taskClassification": "9ae1c850-acac-11e7-a7c8-8b963caaa9cd",
+  "name": "Консультация по сбросу пароля",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>В этот сценарий включаем все ситуации, связанные со сбросом пароля.</i>",
+  "id": "55ed7260-2e8a-11e9-85db-43df3459ccad",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "okrivobokov@local",
+  "___workflowStatus": {}
+}

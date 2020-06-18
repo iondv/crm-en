@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": true,
+  "needRefactoringScenario": false,
+  "support": "SMEV",
+  "taskClassification": null,
+  "name": "ВЫВОД ДОКУМЕНТА НА ПЕЧАТЬ",
+  "scenario": "<b>Ответ оператора:</b><br><br><i></i>Для того, чтобы вывести документ на печать, нужно открыть нужный запрос через кнопку \"Карандаш\". В открывшейся форме в левом верхнем углу будет кнопка \"Печать межведомственного запроса\". Запрос сохраняется в PDF-формате и его можно распечатать.﻿<br>",
+  "id": "47ca2d00-54eb-11e8-9e03-0bb296a70678",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

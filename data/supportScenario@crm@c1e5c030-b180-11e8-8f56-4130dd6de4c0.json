@@ -1,0 +1,12 @@
+{
+  "support": "TELEGRAM",
+  "taskClassification": null,
+  "name": "ОБРАЩЕНИЯ ПО ТЕЛЕГРАМУ",
+  "id": "c1e5c030-b180-11e8-8f56-4130dd6de4c0",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "___workflowStatus": {}
+}

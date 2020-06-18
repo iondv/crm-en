@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": null,
+  "taskClassification": "5e7fa190-acaa-11e7-a7c8-8b963caaa9cd",
+  "name": "Прикрепление справки о льготе в детсад сотрудником техподдержки",
+  "scenario": "<div>К сожалению, мы прикрепить справку не можем. Для этого вам надо обратиться в Управление образования Хабаровска, тел. 32-89-07. Там же можно попросить удалить старое заявление.</div><div><br></div>",
+  "id": "7706dbc0-0579-11e8-9a35-450092c85b39",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

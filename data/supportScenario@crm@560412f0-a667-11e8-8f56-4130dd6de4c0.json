@@ -1,0 +1,14 @@
+{
+  "support": null,
+  "taskClassification": "29e74600-bae1-11e7-a7c8-8b963caaa9cd",
+  "name": "Заявление отсутствует в личном кабинете",
+  "scenario": "Подсказка оператору:<br><br>Пользователь утверждает, что заявление пропало из личного кабинета.<br><br>Текст оператора:<br><br>Заявление создавалось&nbsp;физ.лицом или юр.лицом и под какой учеткой сейчас вошел пользователь. <br>Для проверки данных берем номер заявления и уточняем у администратора через заявку в Git.",
+  "id": "560412f0-a667-11e8-8f56-4130dd6de4c0",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "mariia@local",
+  "___workflowStatus": {}
+}

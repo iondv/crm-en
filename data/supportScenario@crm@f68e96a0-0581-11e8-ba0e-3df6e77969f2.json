@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": true,
+  "support": "SUPD",
+  "taskClassification": null,
+  "name": "Пользователь не видит проекты и мероприятия",
+  "scenario": "<div>Обращаются с вопросом, почему пользователь не видит проекты и мероприятия, хотя права для этого есть.<br><br><b><i>Подсказка оператору:<br><br></i></b>1. Уточняем логин пользователя<br>2. В продуктивной системе открываем административный модуль&nbsp;-&nbsp;Безопасность&nbsp;-&nbsp;Пользователь (<a href=\"http://172.18.225.69/ionadmin/security/user\" title=\"Link: http://172.18.225.69/ionadmin/security/user\">http://172.18.225.69/ionadmin/security/user</a>)</div><div>3.&nbsp;Находим&nbsp;пользователя,&nbsp;проверяем,&nbsp;какие&nbsp;роли&nbsp;у него&nbsp;назначены<br>- базовая&nbsp;роль&nbsp;Обычный&nbsp;пользователь&nbsp;должна&nbsp;быть&nbsp;у&nbsp;всех,&nbsp;даже&nbsp;если&nbsp;он является&nbsp;Оператором&nbsp;проектов.<br>4.&nbsp;Уточняем&nbsp;название&nbsp;проектов&nbsp;и мероприятий,&nbsp;которые&nbsp;не&nbsp;видит&nbsp;пользователь&nbsp;(можно&nbsp;попросить&nbsp;прислать&nbsp;скриншот&nbsp;в Git&nbsp;PM)<br></div>",
+  "id": "f68e96a0-0581-11e8-ba0e-3df6e77969f2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

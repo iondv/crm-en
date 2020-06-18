@@ -1,0 +1,13 @@
+{
+  "support": "SMEV",
+  "taskClassification": null,
+  "name": "Ошиблись номером",
+  "scenario": "В этот сценарий записываем звонки, которые поступили на номер ТП СМЭВ ошибочно, не по адресу",
+  "id": "451d1980-f8ee-11e8-aab5-eff5f1893fb9",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

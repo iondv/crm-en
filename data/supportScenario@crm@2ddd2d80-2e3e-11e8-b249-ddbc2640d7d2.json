@@ -1,0 +1,14 @@
+{
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "support": "IONDV",
+  "taskClassification": null,
+  "scenario": "Звонят кандидаты - переводим на сотовый Андрея<br>Просят соединить с директором, с бухгалтерией или сотрудником - выясняем суть вопроса, соединяем с Андреем только при вразумительном ответе, не относящемся к продажам каких-либо услуг<br><br>Списывать звонки на орг. таск для общих вопросов<br>",
+  "name": "Перевод звонка ",
+  "id": "2ddd2d80-2e3e-11e8-b249-ddbc2640d7d2",
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "_editor": "jeneva@local",
+  "___workflowStatus": {}
+}

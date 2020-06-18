@@ -1,0 +1,14 @@
+{
+  "support": null,
+  "taskClassification": "9ae1c850-acac-11e7-a7c8-8b963caaa9cd",
+  "name": "Реализация запроса в СМЭВ",
+  "scenario": "<div><b>Подсказка оператору:<br></b><br><i>Этот сценарий зачитываем, если служащий спрашивает, как реализовать запрос, который ещё не представлен в СМЭВе.<br></i><br><b>Текст оператора:<br><br></b></div><div><div>Для того, чтобы реализовать запрос в СМЭВе, вам надо обратиться в Мин.информ (т.е. МИТИС) Хабаровского края, чтобы МИТИС дал нам задание реализовать такой запрос. После поступления запроса от МИТИСа, запрос поступает к нам на реализацию.</div></div><div><br></div>",
+  "id": "fe0691a0-d0b9-11e7-a7c4-bb646bb7c7b7",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

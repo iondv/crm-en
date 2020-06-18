@@ -1,0 +1,21 @@
+{
+  "typeComunication": "call",
+  "support": "RPGU",
+  "dateCreate": "2018-02-05T04:26:15.154Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": false,
+  "sourseTask": "phone",
+  "notFoundScenario": false,
+  "id": "b41e8d20-0a2c-11e8-ba0e-3df6e77969f2",
+  "creatorLogin": "koleg@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "supportScenario0": "5e7fa190-acaa-11e7-a7c8-8b963caaa9cd",
+  "supportScenario1": "de0fe190-acaa-11e7-a7c8-8b963caaa9cd",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

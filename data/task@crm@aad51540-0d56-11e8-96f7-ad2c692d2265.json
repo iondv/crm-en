@@ -1,0 +1,18 @@
+{
+  "typeComunication": "call",
+  "support": "RPGU",
+  "dateCreate": "2018-02-09T05:04:11.923Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": false,
+  "sourseTask": "phone",
+  "notFoundScenario": false,
+  "id": "aad51540-0d56-11e8-96f7-ad2c692d2265",
+  "creatorLogin": "jeneva@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

@@ -1,0 +1,13 @@
+{
+  "support": null,
+  "taskClassification": "c9984e40-aca6-11e7-a7c8-8b963caaa9cd",
+  "name": "Запись к врачу другого человека",
+  "scenario": "<b>Подсказка оператору:</b><br><br><i>Этот сценарий зачитываем, когда обращается гражданин с вопросом, как записать к врачу другого человека (ребёнка, мужа, отца, маму и т.д.).</i><br><br><b>Ответ оператора:</b><br><br>Для того, чтобы записать к врачу другого человека, вам нужно дойти до этого пункта, а именно выбрать поликлинику, специализацию врача, ФИО врача, время для записи. После этого вверху меню появляется возможность для записи другого человека к врачу.<br><br>Также есть возможность выбрать из списка тех людей, которых вы уже записывали к врачу.<br><br><img alt=\"image\" src=\"https://git.iondv.ru/KHV/technical-support/wikis/uploads/ffe0be0c140a6610ce2bcc8c53e8a962/image.png\" title=\"Image: https://git.iondv.ru/KHV/technical-support/wikis/uploads/ffe0be0c140a6610ce2bcc8c53e8a962/image.png\">﻿<br><br>",
+  "id": "eb27eb60-5a56-11e9-85db-43df3459ccad",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "okrivobokov@local",
+  "___workflowStatus": {}
+}

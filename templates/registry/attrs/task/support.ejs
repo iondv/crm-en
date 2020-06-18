@@ -1,0 +1,184 @@
+<!-- templates\registry\attrs\task\support -->
+<%
+let params = {
+  url: `${module}/api/${item.getClassName()}/`,
+  postData: {
+    start: 0,
+    length: 50,
+    itemClass: item.getClassName()
+  }
+};
+%>
+<div class="form-group mb0 required <%= cssFromTags(field) %>">
+  <label class="col-md-2 col-sm-3 control-label"><%= field.caption %></label>
+  <div class="col-md-10 col-sm-9">
+
+    <div id="<%- id %>" class="form-control-static loading  loadable"
+         data-params="<%= JSON.stringify(params) %>">
+
+      <input type="hidden" name="support" class="attr-value support"/>
+      <input type="hidden" name="supportScenario0" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario1" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario2" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario3" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario4" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario5" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario6" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario7" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario8" class="attr-value scenario"/>
+      <input type="hidden" name="supportScenario9" class="attr-value scenario"/>
+
+      <div class="attr-overlay overlay">
+        <span class="fa fa-refresh fa-spin"></span>
+      </div>
+
+      <div class="tree"></div>
+
+    </div>
+    <p class="error-block"></p>
+  </div>
+</div>
+
+<% stylesheet(`${module}/crm-static/css/styles.css`) -%>
+<% script(`${module}/crm-static/js/scripts.js`) -%>
+
+<script>
+  $(document.body).on('js:common:ready', function () {
+    $(document.getElementById('<%- id %>')).each(function () {
+      var scenarioPrefix = 'supportScenario';
+      var $attr = $(this);
+      var $form = $attr.closest('form');
+      var $values = $attr.find('.attr-value');
+      var $support = $values.filter('.support');
+      var $tree = $attr.find('.tree');
+      var params = $attr.data('params');
+
+      $attr.addClass('loading');
+      $.post(params.url + 'support/selection', getSelectionParams()).always(function () {
+        $attr.removeClass('loading');
+      }).done(function (data) {
+        $tree.html(buildTree(data && data.data, 0));
+        $tree.children().each(function () {
+          loadTreeChildren($(this));
+        });
+      });
+
+      $tree.on('click', '.tree-item-toggle', function () {
+        var $item = $(this).closest('.tree-item');
+        if ($item.hasClass('loaded')) {
+          $item.hasClass('opened') ? $item.removeClass('opened') : openTreeItem($item);
+        }
+      });
+
+      $tree.on('click', '.tree-item-title', function () {
+        clearSelection();
+        var $item = $(this).closest('.tree-item');
+        if ($item.hasClass('has-children')) {
+          $item.hasClass('opened') ? $item.removeClass('opened') : openTreeItem($item);
+        }
+        selectScenario($item);
+      });
+
+      function buildTree (data, level) {
+        var result = '';
+        if (data instanceof Array) {
+          for (var i = 0; i < data.length; ++i) {
+            var item = data[i];
+            result += '<div class="tree-item" data-level="' + level
+              + '" data-id="' + item._id + '"><div class="tree-item-toggle"></div>'
+              + '<div class="tree-item-loader"><span class="fa fa-refresh fa-spin"></span></div>'
+              + '<div class="tree-item-title">' +item.name
+              + '</div><div class="tree-item-children"></div></div>';
+          }
+        }
+        return result;
+      }
+
+      function openTreeItem ($item) {
+        if ($item.hasClass('loaded')) {
+          $item.addClass('opened').find('.tree-item-children').children().each(function (index) {
+            setTimeout(loadTreeChildren($(this)), index * 100);
+          });
+          scrollTop($item);
+        }
+      }
+
+      function loadTreeChildren ($item) {
+        if (!$item.hasClass('loading') && !$item.hasClass('loaded')) {
+          var level = $item.data('level');
+          $item.addClass('loading');
+          $item.data('xhr', $.post(getSelectionUrl(level), getTreeParams($item)).done(function (data) {
+            if ($tree.find($item).length) {
+              data = data && data.data;
+              if (data.length) {
+                data = buildTree(data, level + 1);
+                $item.find('.tree-item-children').html(data);
+                $item.addClass('has-children');
+              }
+              $item.addClass('loaded').removeClass('loading')
+            }
+          }));
+        }
+      }
+
+      function scrollTop ($item) {
+          var delta = $item.offset().top - $tree.offset().top;
+          $tree.stop().animate({
+              scrollTop: $tree.scrollTop() + delta +  'px'
+          },{
+              duration: 700
+          });
+      }
+
+      function getSelectionUrl (level) {
+        return params.url + scenarioPrefix + level + '/selection';
+      }
+
+      function getTreeParams ($item) {
+        var data = {};
+        getTreeBranch($item).each(function () {
+          if (this.dataset.level === '0') {
+            data.support = this.dataset.id;
+          } else {
+            data[getScenarioAttrName(this)] = this.dataset.id;
+          }
+        });
+        return getSelectionParams(data);
+      }
+
+      function getScenarioAttrName (item) {
+        return scenarioPrefix + (parseInt($(item).data('level')) - 1);
+      }
+
+      function getTreeBranch ($item) {
+        return $item.add($item.parents('.tree-item'));
+      }
+
+      function getSelectionParams (data) {
+        return $.extend({
+          updates: $.extend({}, data)
+        }, params.postData);
+      }
+
+      function clearSelection () {
+        $support.data('id', '');
+        $values.val('').change();
+        $tree.find('.selected').removeClass('selected');
+      }
+
+      function selectScenario ($item) {
+        $values.val('');
+        getTreeBranch($item).each(function () {
+          if (this.dataset.level === '0') {
+            $support.val(this.dataset.id);
+          } else {
+            $values.filter('[name="'+ getScenarioAttrName(this) +'"]').val(this.dataset.id);
+          }
+        });
+        $support.data('id', $item.data('level') > '0' ? $item.data('id') : '');
+        $values.change();
+        $item.addClass('selected');
+      }
+    });
+  });
+</script>

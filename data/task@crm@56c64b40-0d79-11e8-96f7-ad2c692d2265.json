@@ -1,0 +1,21 @@
+{
+  "typeComunication": "mail",
+  "support": "RPGU",
+  "dateCreate": "2018-02-09T09:12:23.284Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": true,
+  "sourseTask": "phone",
+  "notFoundScenario": true,
+  "id": "56c64b40-0d79-11e8-96f7-ad2c692d2265",
+  "creatorLogin": "ykozelsky@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "ykozelsky@local",
+  "supportScenario0": "5e7fa190-acaa-11e7-a7c8-8b963caaa9cd",
+  "comment": "Проблема при заполнении формы заявления на постановку в очередь",
+  "_editor": "ykozelsky@local",
+  "___workflowStatus": {}
+}

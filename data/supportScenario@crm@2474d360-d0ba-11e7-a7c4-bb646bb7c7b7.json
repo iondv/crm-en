@@ -1,0 +1,14 @@
+{
+  "support": null,
+  "taskClassification": "10f6d120-acad-11e7-a7c8-8b963caaa9cd",
+  "name": "Невозможно взять поступивший запрос от РР в работу",
+  "scenario": "<div><b>Подсказка оператору:</b></div><div><br><i>Этот сценарий зачитываем, если служащему поступил на обработку запрос от РР. Служащий видит этот запрос, но не может взять его в работу.</i><br><br><b>Текст оператора:<br><br></b></div><div><div>Это значит, что вы не обладаете ролью модератора, т.е. сотрудника, </div><div>назначающего исполнителя. Соответственно, вы, как служащий, не можете</div><div>назначить исполнителем себя. Вам необходимо написать заявку на </div><div>предоставление прав модератора.﻿</div></div><div><br></div>",
+  "id": "2474d360-d0ba-11e7-a7c4-bb646bb7c7b7",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

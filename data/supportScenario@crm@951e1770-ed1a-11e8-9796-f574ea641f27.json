@@ -1,0 +1,12 @@
+{
+  "support": "RPGU",
+  "taskClassification": null,
+  "name": "ГОСУСЛУГИ",
+  "id": "951e1770-ed1a-11e8-9796-f574ea641f27",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

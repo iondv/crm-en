@@ -1,0 +1,18 @@
+{
+  "typeComunication": "call",
+  "support": "RPGU",
+  "dateCreate": "2018-02-09T06:46:28.158Z",
+  "typeTask": "question",
+  "consult": false,
+  "taskUser": [],
+  "role": [],
+  "supportScenarioComplite": false,
+  "sourseTask": "phone",
+  "notFoundScenario": false,
+  "id": "f45015e0-0d64-11e8-96f7-ad2c692d2265",
+  "creatorLogin": "koleg@local",
+  "_class": "task@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "___workflowStatus": {}
+}

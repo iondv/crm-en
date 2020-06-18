@@ -1,0 +1,13 @@
+{
+  "support": "SMEV",
+  "taskClassification": null,
+  "name": "ДОСТУП",
+  "id": "9ae1c850-acac-11e7-a7c8-8b963caaa9cd",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "koleg@local",
+  "_editor": "koleg@local",
+  "___workflowStatus": {}
+}

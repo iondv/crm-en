@@ -1,0 +1,13 @@
+{
+  "support": "RPGU (SAKHALIN)",
+  "taskClassification": null,
+  "name": "ПРОПУЩЕННЫЙ ВЫЗОВ",
+  "scenario": "В комментариях обязательно указать причину пропуска ﻿<br>",
+  "id": "56843fc0-01ca-11e9-aab5-eff5f1893fb9",
+  "endTaskClassification": false,
+  "needRefactoringScenario": false,
+  "_class": "supportScenario@crm",
+  "_classVer": "",
+  "_creator": "jeneva@local",
+  "___workflowStatus": {}
+}

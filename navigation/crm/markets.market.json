@@ -1,0 +1,16 @@
+{
+  "code": "markets.market",
+  "orderNumber": 6,
+  "type": 1,
+  "title": "",
+  "caption": "Маркетинг",
+  "classname": "marketing",
+  "container": null,
+  "collection": null,
+  "url": null,
+  "hint": null,
+  "conditions": [],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.15690"
+}
