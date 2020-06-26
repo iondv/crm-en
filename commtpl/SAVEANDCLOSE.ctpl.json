@@ -1,0 +1,10 @@
+{
+  "id": "SAVEANDCLOSE",
+  "caption": "Сохранить и закрыть",
+  "visibilityCondition": null,
+  "enableCondition": null,
+  "needSelectedItem": false,
+  "signBefore": false,
+  "signAfter": false,
+  "isBulk": false
+}

@@ -1,0 +1,102 @@
+
+.placeholder {
+  color:#888;
+  font-style: italic;
+}
+
+.form-group .loadable {
+  min-height: 50px;
+}
+.form-group .loadable > .attr-overlay.overlay {
+  display: none;
+  background: rgba(255,255,255,0.3);
+}
+.form-group .loadable > .attr-overlay.overlay span {
+  font-size: 20px;
+  color:#ccc;
+}
+.form-group .loading.loadable > .attr-overlay.overlay {
+  display:  block;
+}
+
+.tree {
+  max-height: 290px;
+  overflow: auto;
+}
+.tree-item {
+  position: relative;
+  margin-bottom: 5px;
+  padding-left: 27px;
+}
+.tree-item:last-child {
+  margin-bottom: 0;
+}
+.tree-item-toggle {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  vertical-align: bottom;
+  border:1px solid  #aaa;
+  cursor: pointer;
+  z-index: 1;
+}
+.tree-item-toggle:before {
+  content: "+";
+  position: relative;
+  top: -6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.tree-item-title {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.tree-item-children {
+  padding: 5px 0 0 0;
+  display: none;
+  position: relative;
+}
+.has-children > .tree-item-toggle {
+  display: block;
+}
+.opened > .tree-item-toggle:before {
+  content: "-";
+  top: -8px;
+}
+.opened > .tree-item-children {
+  display: block;
+}
+.selected > .tree-item-title {
+  font-weight: bold;
+  color:#3070b0;
+}
+.tree-item-loader {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  vertical-align: bottom;
+  color:#ccc;
+  z-index: 1;
+}
+.loading > .tree-item-loader {
+  display: none;
+}
+.loading > .tree-item-toggle {
+  display: none;
+}
+
+.form-group .scenario-attr {
+  padding:20px;
+  margin-bottom: 10px;
+  background: #ffd;
+}

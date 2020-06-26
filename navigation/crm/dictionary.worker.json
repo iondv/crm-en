@@ -1,0 +1,16 @@
+{
+  "code": "dictionary.worker",
+  "orderNumber": 0,
+  "type": 1,
+  "title": "",
+  "caption": "Сотрудник",
+  "classname": "worker",
+  "container": null,
+  "collection": "role",
+  "url": null,
+  "hint": null,
+  "conditions": [],
+  "sorting": [],
+  "pathChains": [],
+  "metaVersion": "2.0.61.15690"
+}
