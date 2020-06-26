@@ -4,7 +4,7 @@
     "id"
   ],
   "semantic": "name",
-  "name": "Product",
+  "name": "product",
   "version": "",
   "caption": "Продукт",
   "ancestor": null,

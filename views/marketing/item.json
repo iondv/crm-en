@@ -4,8 +4,8 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Тип",
-          "type": 2,
+          "caption": "Тип маркетинга",
+          "type": 5,
           "property": "typeEvent",
           "size": 2,
           "maskName": null,
@@ -458,32 +458,6 @@
           "selSorting": null
         },
         {
-          "caption": "Подрядчик",
-          "type": 2,
-          "property": "contractor",
-          "size": 2,
-          "maskName": null,
-          "mask": null,
-          "mode": 1,
-          "fields": [],
-          "columns": [],
-          "actions": null,
-          "commands": null,
-          "orderNumber": 101,
-          "required": false,
-          "visibility": null,
-          "enablement": null,
-          "obligation": null,
-          "readonly": false,
-          "selectionPaginated": true,
-          "validators": null,
-          "hint": "",
-          "historyDisplayMode": 0,
-          "tags": null,
-          "selConditions": null,
-          "selSorting": null
-        },
-        {
           "caption": "Учавствующие персоны",
           "type": 3,
           "property": "person",
@@ -604,16 +578,6 @@
   "overrideMode": 1,
   "commands": [
     {
-      "id": "DELETE",
-      "caption": "Удалить",
-      "visibilityCondition": null,
-      "enableCondition": null,
-      "needSelectedItem": false,
-      "signBefore": false,
-      "signAfter": false,
-      "isBulk": false
-    },
-    {
       "id": "SAVE",
       "caption": "Сохранить",
       "visibilityCondition": null,
@@ -626,6 +590,16 @@
     {
       "id": "SAVEANDCLOSE",
       "caption": "Сохранить и закрыть",
+      "visibilityCondition": null,
+      "enableCondition": null,
+      "needSelectedItem": false,
+      "signBefore": false,
+      "signAfter": false,
+      "isBulk": false
+    },
+    {
+      "id": "DELETE",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

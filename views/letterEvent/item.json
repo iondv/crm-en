@@ -161,7 +161,7 @@
         },
         {
           "caption": "Событие",
-          "type": 2,
+          "type": 5,
           "property": "event",
           "size": 2,
           "maskName": null,
@@ -170,7 +170,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 70,
           "required": false,
           "visibility": null,
@@ -210,16 +241,6 @@
     {
       "id": "SAVEANDCLOSE",
       "caption": "Сохранить и закрыть",
-      "visibilityCondition": null,
-      "enableCondition": null,
-      "needSelectedItem": false,
-      "signBefore": false,
-      "signAfter": false,
-      "isBulk": false
-    },
-    {
-      "id": "EDIT",
-      "caption": "Изменить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

@@ -194,7 +194,7 @@
         },
         {
           "caption": "Аккаунт",
-          "type": 2,
+          "type": 5,
           "property": "organiz",
           "size": 2,
           "maskName": null,
@@ -203,7 +203,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 31,
           "required": false,
           "visibility": null,
@@ -434,7 +465,7 @@
         },
         {
           "caption": "Маркетинг",
-          "type": 2,
+          "type": 5,
           "property": "market",
           "size": 2,
           "maskName": null,
@@ -443,7 +474,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 51,
           "required": false,
           "visibility": null,

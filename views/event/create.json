@@ -5,7 +5,7 @@
       "fullFields": [
         {
           "caption": "Сотрудник",
-          "type": 2,
+          "type": 5,
           "property": "worker",
           "size": 2,
           "maskName": null,
@@ -109,7 +109,7 @@
         },
         {
           "caption": "Предыдущее событие",
-          "type": 2,
+          "type": 5,
           "property": "before",
           "size": 2,
           "maskName": null,
@@ -118,7 +118,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 60,
           "required": false,
           "visibility": null,
@@ -135,7 +166,7 @@
         },
         {
           "caption": "Следующее событие",
-          "type": 2,
+          "type": 5,
           "property": "after",
           "size": 2,
           "maskName": null,
@@ -144,7 +175,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 70,
           "required": false,
           "visibility": null,
@@ -187,7 +249,7 @@
         },
         {
           "caption": "Звонок",
-          "type": 2,
+          "type": 5,
           "property": "call",
           "size": 2,
           "maskName": null,
@@ -196,7 +258,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 46,
           "required": false,
           "visibility": ".typeComunication \u003d\u003d \u0027call\u0027",
@@ -213,7 +306,7 @@
         },
         {
           "caption": "Письмо",
-          "type": 2,
+          "type": 5,
           "property": "letter",
           "size": 2,
           "maskName": null,
@@ -222,7 +315,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 46,
           "required": false,
           "visibility": ".typeComunication \u003d\u003d \u0027letter\u0027",
@@ -239,7 +363,7 @@
         },
         {
           "caption": "E-mail",
-          "type": 2,
+          "type": 5,
           "property": "mail",
           "size": 2,
           "maskName": null,
@@ -248,7 +372,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 46,
           "required": false,
           "visibility": ".typeComunication \u003d\u003d \u0027mail\u0027",
@@ -265,7 +420,7 @@
         },
         {
           "caption": "Встреча",
-          "type": 2,
+          "type": 5,
           "property": "metting",
           "size": 2,
           "maskName": null,
@@ -274,7 +429,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 46,
           "required": false,
           "visibility": ".typeComunication \u003d\u003d \u0027metting\u0027",

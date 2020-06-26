@@ -42,8 +42,8 @@
   "overrideMode": 1,
   "commands": [
     {
-      "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "id": "SAVE",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -52,8 +52,8 @@
       "isBulk": false
     },
     {
-      "id": "SAVE",
-      "caption": "Сохранить",
+      "id": "SAVEANDCLOSE",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

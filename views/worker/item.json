@@ -59,7 +59,7 @@
         },
         {
           "caption": "Персона",
-          "type": 2,
+          "type": 5,
           "property": "persona",
           "size": 2,
           "maskName": null,
@@ -68,7 +68,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 30,
           "required": false,
           "visibility": null,
@@ -85,7 +116,7 @@
         },
         {
           "caption": "Организация",
-          "type": 2,
+          "type": 5,
           "property": "organiz",
           "size": 2,
           "maskName": null,
@@ -94,7 +125,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 40,
           "required": false,
           "visibility": null,
@@ -225,16 +287,6 @@
   "version": null,
   "overrideMode": 1,
   "commands": [
-    {
-      "id": "CREATE",
-      "caption": "Создать",
-      "visibilityCondition": null,
-      "enableCondition": null,
-      "needSelectedItem": false,
-      "signBefore": false,
-      "signAfter": false,
-      "isBulk": false
-    },
     {
       "id": "SAVE",
       "caption": "Сохранить",

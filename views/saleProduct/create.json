@@ -4,8 +4,8 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Наименование",
-          "type": 2,
+          "caption": "Наименование продукта",
+          "type": 5,
           "property": "name",
           "size": 2,
           "maskName": null,
@@ -14,7 +14,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 15,
           "required": false,
           "visibility": null,
@@ -146,16 +177,6 @@
   "overrideMode": 1,
   "commands": [
     {
-      "id": "DELETE",
-      "caption": "Удалить",
-      "visibilityCondition": null,
-      "enableCondition": null,
-      "needSelectedItem": false,
-      "signBefore": false,
-      "signAfter": false,
-      "isBulk": false
-    },
-    {
       "id": "SAVE",
       "caption": "Сохранить",
       "visibilityCondition": null,
@@ -166,8 +187,8 @@
       "isBulk": false
     },
     {
-      "id": "CREATE",
-      "caption": "Создать",
+      "id": "SAVEANDCLOSE",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

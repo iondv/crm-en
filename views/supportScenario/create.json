@@ -203,16 +203,6 @@
   "overrideMode": 0,
   "commands": [
     {
-      "id": "DELETE",
-      "caption": "Удалить",
-      "visibilityCondition": null,
-      "enableCondition": null,
-      "needSelectedItem": false,
-      "signBefore": false,
-      "signAfter": false,
-      "isBulk": false
-    },
-    {
       "id": "SAVE",
       "caption": "Сохранить",
       "visibilityCondition": null,

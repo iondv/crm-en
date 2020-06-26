@@ -176,7 +176,7 @@
       "autoassigned": false,
       "hint": null,
       "defaultValue": null,
-      "refClass": "Product",
+      "refClass": "product",
       "itemsClass": "",
       "backRef": "",
       "backColl": "",
