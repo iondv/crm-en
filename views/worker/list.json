@@ -31,7 +31,7 @@
       "sorted": true,
       "caption": "Персона",
       "type": 2,
-      "property": "persona",
+      "property": "person",
       "size": 2,
       "maskName": null,
       "mask": null,

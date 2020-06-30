@@ -130,6 +130,54 @@
       "indexSearch": false,
       "eagerLoading": false,
       "formula": null
+    },
+    {
+      "orderNumber": 11,
+      "name": "state",
+      "caption": "Статус",
+      "type": 0,
+      "size": null,
+      "decimals": 0,
+      "allowedFileTypes": null,
+      "maxFileCount": 0,
+      "nullable": true,
+      "readonly": false,
+      "indexed": true,
+      "unique": false,
+      "autoassigned": false,
+      "hint": null,
+      "defaultValue": "create",
+      "refClass": "",
+      "itemsClass": "",
+      "backRef": "",
+      "backColl": "",
+      "binding": "",
+      "semantic": null,
+      "selConditions": [],
+      "selSorting": [],
+      "selectionProvider": {
+        "type": "SIMPLE",
+        "list": [
+          {
+            "key": "create",
+            "value": "Создан"
+          },
+          {
+            "key": "sell",
+            "value": "Ведутся мероприятия по продаже"
+          },
+          {
+            "key": "close",
+            "value": "Продажа закрыта"
+          }
+        ],
+        "matrix": [],
+        "parameters": [],
+        "hq": ""
+      },
+      "indexSearch": false,
+      "eagerLoading": false,
+      "formula": null
     }
   ],
   "metaVersion": "2.0.61"

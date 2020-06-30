@@ -14,7 +14,38 @@
           "fields": [],
           "columns": [],
           "actions": null,
-          "commands": null,
+          "commands": [
+            {
+              "id": "CREATE",
+              "caption": "Создать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": false,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "EDIT",
+              "caption": "Править",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            },
+            {
+              "id": "REMOVE",
+              "caption": "Убрать",
+              "visibilityCondition": null,
+              "enableCondition": null,
+              "needSelectedItem": true,
+              "signBefore": false,
+              "signAfter": false,
+              "isBulk": false
+            }
+          ],
           "orderNumber": 30,
           "required": true,
           "visibility": null,
@@ -137,7 +168,7 @@
           "selSorting": null
         },
         {
-          "caption": "Продукт",
+          "caption": "Продукты",
           "type": 3,
           "property": "product",
           "size": 2,
@@ -149,7 +180,7 @@
             {
               "sorted": true,
               "caption": "Наименование",
-              "type": 1,
+              "type": 2,
               "property": "name",
               "size": 2,
               "maskName": null,
@@ -218,7 +249,7 @@
           "selSorting": null
         },
         {
-          "caption": "Продажа",
+          "caption": "Продажи",
           "type": 3,
           "property": "selling",
           "size": 2,
@@ -551,7 +582,7 @@
           ],
           "actions": null,
           "commands": null,
-          "orderNumber": 110,
+          "orderNumber": 32,
           "required": false,
           "visibility": null,
           "enablement": null,

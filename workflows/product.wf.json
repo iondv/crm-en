@@ -1,0 +1,91 @@
+{
+    "name": "product",
+    "namespace": "crm-ru",
+    "caption": "Продажа продукта",
+    "wfClass": "product",
+    "startState": "create",
+    "states": [
+      {
+        "name": "create",
+        "caption": "Создан",
+        "maxPeriod": "",
+        "conditions": [],
+        "itemPermissions": [],
+        "propertyPermissions": [],
+        "selectionProviders": []
+      },
+      {
+        "name": "sell",
+        "caption": "Продажа",
+        "maxPeriod": "",
+        "conditions": [],
+        "itemPermissions": [],
+        "propertyPermissions": [],
+        "selectionProviders": []
+      },
+      {
+        "name": "close",
+        "caption": "Закрыт",
+        "maxPeriod": "",
+        "conditions": [],
+        "itemPermissions": [],
+        "propertyPermissions": [],
+        "selectionProviders": []
+      }
+    ],
+    "transitions": [
+      {
+        "name": "createInsell",
+        "caption": "Начать мероприятия по продаже",
+        "startState": "create",
+        "finishState": "sell",
+        "signBefore": false,
+        "signAfter": false,
+        "confirm": false,
+        "confirmMessage": "",
+        "assignments": [
+            {
+                "key": "state",
+                "value": "sell"
+            }
+        ],
+        "conditions": [
+          {
+            "property": "state",
+            "operation": 0,
+            "value": [
+              "create"
+            ],
+            "nestedConditions": []
+          }
+        ],
+        "roles": []
+      },
+      {
+        "name": "sellClose",
+        "caption": "Завершить продажу",
+        "startState": "sell",
+        "finishState": "close",
+        "signBefore": false,
+        "signAfter": false,
+        "confirm": true,
+        "confirmMessage": "Вы уверены что хотите завершить продажу данного продукта?",
+        "assignments": [
+          {
+            "key": "state",
+            "value": "close"
+          } 
+        ],
+        "conditions": [
+          {
+            "property": "state",
+            "operation": 0,
+            "value": [
+              "sell"
+            ],
+            "nestedConditions": []
+          }
+        ]
+      }
+    ]
+  }

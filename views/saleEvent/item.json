@@ -31,7 +31,7 @@
         },
         {
           "caption": "Дата и время события",
-          "type": 120,
+          "type": 6,
           "property": "dateEvent",
           "size": 2,
           "maskName": null,

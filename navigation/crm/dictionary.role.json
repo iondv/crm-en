@@ -1,9 +1,9 @@
 {
   "code": "dictionary.role",
-  "orderNumber": 0,
+  "orderNumber": 20,
   "type": 1,
   "title": "",
-  "caption": "Эксплуатационная роль",
+  "caption": "Эксплуатационные роли",
   "classname": "role",
   "container": null,
   "collection": null,

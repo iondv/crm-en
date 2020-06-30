@@ -1,9 +1,9 @@
 {
   "code": "dictionary.worker",
-  "orderNumber": 0,
+  "orderNumber": 50,
   "type": 1,
   "title": "",
-  "caption": "Сотрудник",
+  "caption": "Сотрудники",
   "classname": "worker",
   "container": null,
   "collection": "role",

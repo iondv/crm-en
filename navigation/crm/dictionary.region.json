@@ -1,9 +1,9 @@
 {
   "code": "dictionary.region",
-  "orderNumber": 0,
+  "orderNumber": 10,
   "type": 1,
   "title": "",
-  "caption": "Регион",
+  "caption": "Регионы",
   "classname": "region",
   "container": null,
   "collection": null,

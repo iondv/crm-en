@@ -75,11 +75,27 @@
             ]
           }
         },
+        "eagerLoading": {
+          "*": {
+            "saleEvent@crm-ru": {
+              "list": [
+                "selling.organiz.organName"
+              ]
+            },
+            "selling@crm-ru": {
+              "list": [
+                "product.name.name"
+              ]
+            }
+          }
+        },
         "templates": [
           "applications/crm-ru/templates/registry"
         ],
         "statics": {
-          "crm-static": "applications/crm-ru/templates/registry/static"
+          "crm-static": "applications/crm-ru/templates/registry/static",
+          "app-vendor": "applications/crm-ru/themes/registry/node_modules",
+          "common-static": "applications/crm-ru/templates/static"
         },  
         "createByCopy": [
             "task@crm-ru",
@@ -125,7 +141,9 @@
             "support": {
               "task": "mineBuilder",
               "support": "mineBuilder",
-              "supportScenarioSource": "mineBuilder"
+              "supportScenarioSource": "mineBuilder",
+              "selling": "mineBuilder",
+              "marketing": "mineBuilder"
             }
           }
         },
@@ -135,6 +153,21 @@
       "import": {
         "src": "applications/crm-ru/bi",
         "namespace": "crm-ru"
+      }
+    },
+    "dashboard": {
+      "globals": {
+        "namespaces": {
+          "crm-ru": "Техническая поддержка"
+        },
+        "root": {
+          "sakh-pm": "applications/crm-ru/dashboard"
+        },
+        "layouts": {
+          "task": {
+            "title": "Обращения"
+          }
+        }
       }
     }
   }

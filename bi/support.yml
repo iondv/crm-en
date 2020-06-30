@@ -1,5 +1,5 @@
 name: support
-caption: Отчет по заявкам в техническую поддержку
+caption: Сводные данные
 sources:
   - name: task
     caption: Заявка
@@ -92,7 +92,7 @@ sources:
     index:
       - id
   - name: support
-    caption: Заявки в техническую поддержку
+    caption: Обращения в техническую поддержку
     load:
       - source: task
         joins:
@@ -168,12 +168,68 @@ sources:
                   - true
                 - Да
                 - Нет
+  - name: selling
+    caption: Продажи продуктов за период
+    load:
+      - className: selling
+        results:
+          - field: id
+            expr: $id
+          - field: dateCreate
+            expr: $dateCreate
+          - field: organiz
+            expr: $organiz.organName
+          - field: product
+            expr: $product.name.name
+          - field: price
+            expr: $product.price
+          - field: state
+            expr: 
+              if:
+                - eq:
+                  - $product.name.state
+                  - create
+                - 'Создан'
+                - if:
+                  - eq:
+                    - $product.name.state
+                    - sell
+                  - 'Ведутся мероприятия по продаже'
+                  - if:
+                    - eq:
+                      - $product.name.state
+                      - close
+                    - 'Продажа закрыта'
+                    - ' '
+          - field: event
+            expr: $event.dateEvent
+    index:
+      - id
+  - name: marketing
+    caption: Маркетинговые мероприятия за период
+    load:
+      - className: marketing
+        results:
+          - field: id
+            expr: $id
+          - field: dateCreate
+            expr: $dateCreate
+          - field: typeEvent
+            expr: $typeEvent.name
+          - field: product
+            expr: $product.name.name
+          - field: participants
+            expr: $participants.dateEvent
+          - field: target
+            expr: $target
+    index:
+      - id
 reports:
   - name: technicalSupport
-    caption: Заявки ТП
+    caption: Обращения
     sheets:
       - name: technicalSupport
-        caption: Заявки в техническую поддержку
+        caption: Обращения в техническую поддержку
         type: aggregation
         source: support
         fetch:
@@ -205,6 +261,81 @@ reports:
             caption: Наименование классификации
           - field: coment
             caption: Комментарий
+  - name: sellingPeriod
+    caption: Продажи
+    sheets:
+      - name: sellingPeriod
+        caption: Продажи продуктов за период
+        type: aggregation
+        source: selling
+        fetch:
+          dateCreate: $dateCreate
+          organiz: $organiz
+          product: $product
+          price: $price
+          state: $state
+          event: $event
+        rangeFilters:
+          dateCreate:
+            caption: За период с|по
+            format: date
+            inclusive: both
+        columns:
+          - field: dateCreate
+            caption: Дата создания
+            format: date
+          - field: organiz
+            caption: Аккаунт
+          - field: product
+            caption: Продукт
+          - field: price
+            caption: Цена продукта
+          - field: state
+            caption: Статус продажи
+          - field: event
+            caption: Дата и время событий по продаже
+            format: date
+        groups:
+          fields:
+            - organiz
+            - product
+            - event
+  - name: marketingPeriod
+    caption: Маркетинговые мероприятия
+    sheets:
+      - name: sellingPeriod
+        caption: Маркетинговые мероприятия за период
+        type: aggregation
+        source: marketing
+        fetch:
+          dateCreate: $dateCreate
+          typeEvent: $typeEvent
+          product: $product
+          participants: $participants
+          target: $target
+        rangeFilters:
+          dateCreate:
+            caption: За период с|по
+            format: date
+            inclusive: both
+        columns:
+          - field: dateCreate
+            caption: Дата создания
+            format: date
+          - field: typeEvent
+            caption: Тип
+          - field: product
+            caption: Продукты
+          - field: participants
+            caption: Дата и время событий
+            format: date
+          - field: target
+            caption: Цели
+        groups:
+          fields:
+            - typeEvent
+            - product
+            - participants
   - name: supportScenario
     caption: Сценарии поддержки
     sheets:

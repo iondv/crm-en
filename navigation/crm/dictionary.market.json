@@ -1,9 +1,9 @@
 {
   "code": "dictionary.market",
-  "orderNumber": 10,
+  "orderNumber": 60,
   "type": 1,
   "title": "",
-  "caption": "Тип маркетинга",
+  "caption": "Типы маркетинга",
   "classname": "typeMarket",
   "container": null,
   "collection": null,

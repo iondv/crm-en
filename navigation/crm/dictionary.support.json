@@ -1,9 +1,9 @@
 {
   "code": "dictionary.support",
-  "orderNumber": 15,
+  "orderNumber": 70,
   "type": 1,
   "title": "",
-  "caption": "Предмет поддержки",
+  "caption": "Предметы поддержки",
   "classname": "support",
   "container": null,
   "collection": null,
