@@ -5,6 +5,8 @@ IONDV. CRM is a software solution based on the IONDV. Framework, implemented for
 
 The demo version shows an example of using the system to provide technical support – it allows you to register incoming requests from users in various forms (letters, calls, meetings, e-mail). In this case, the demo version shows an example of using the system for a store that is selling recreation goods and tourist equipment. The system allows to register incoming requests (calls) and at the same time to show prompts/scripts to the operator registering the request or call on the specified request topic. 
 
+<h1 align="center"> <img src="/iondv-crm-en.jpg" alt="IONDV. CRM" align="center"></h1>  
+
 ## Demo
 
 Demo access to view the system without registration: https://crm-ru.iondv.ru
