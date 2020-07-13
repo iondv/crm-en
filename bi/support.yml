@@ -1,8 +1,8 @@
 name: support
-caption: Сводные данные
+caption: Summary data
 sources:
   - name: task
-    caption: Заявка
+    caption: Request
     load:
       - className: task
         results:
@@ -16,17 +16,17 @@ sources:
                 - eq:
                   - $typeComunication
                   - call
-                - 'Звонок'
+                - 'Call'
                 - if:
                   - eq:
                     - $typeComunication
                     - metting
-                  - 'Встреча'
+                  - 'Meeting'
                   - if:
                     - eq:
                       - $typeComunication
                       - letter
-                    - 'Письмо'
+                    - 'Letter'
                     - if:
                       - eq:
                         - $typeComunication
@@ -39,17 +39,17 @@ sources:
                 - eq:
                   - $typeTask
                   - question
-                - 'Консультация'
+                - 'Сonsultation'
                 - if:
                   - eq:
                     - $typeTask
                     - problem
-                  - 'Инцидент'
+                  - 'Incident'
                   - if:
                     - eq:
                       - $typeTask
                       - offer
-                    - 'Предложение'
+                    - 'Offer'
                     - ' '
           - field: predmetSupport
             expr: $support.name
@@ -92,7 +92,7 @@ sources:
     index:
       - id
   - name: support
-    caption: Обращения в техническую поддержку
+    caption: Requests to technical support
     load:
       - source: task
         joins:
@@ -134,7 +134,7 @@ sources:
           - field: coment
             expr: $coment
   - name: supportScenarioSource
-    caption: Сценарии поддержки
+    caption: Support scenarios
     load:
       - className: supportScenario
         results:
@@ -169,7 +169,7 @@ sources:
                 - Да
                 - Нет
   - name: selling
-    caption: Продажи продуктов за период
+    caption: Product sales for the period
     load:
       - className: selling
         results:
@@ -189,24 +189,24 @@ sources:
                 - eq:
                   - $product.name.state
                   - create
-                - 'Создан'
+                - 'Created'
                 - if:
                   - eq:
                     - $product.name.state
                     - sell
-                  - 'Ведутся мероприятия по продаже'
+                  - 'Sales activities in progress'
                   - if:
                     - eq:
                       - $product.name.state
                       - close
-                    - 'Продажа закрыта'
+                    - 'Sale is closed'
                     - ' '
           - field: event
             expr: $event.dateEvent
     index:
       - id
   - name: marketing
-    caption: Маркетинговые мероприятия за период
+    caption: Marketing events for the period
     load:
       - className: marketing
         results:
@@ -226,10 +226,10 @@ sources:
       - id
 reports:
   - name: technicalSupport
-    caption: Обращения
+    caption: Requests
     sheets:
       - name: technicalSupport
-        caption: Обращения в техническую поддержку
+        caption: Requests to technical support
         type: aggregation
         source: support
         fetch:
@@ -242,30 +242,30 @@ reports:
           coment: $coment
         rangeFilters:
           date:
-            caption: За период с|по
+            caption: For the period from|to
             format: date
             inclusive: both
         columns:
           - field: date
-            caption: Дата создания
+            caption: Date of creation
             format: date
           - field: typeComunication
-            caption: Тип коммуникации
+            caption: Type of communication
           - field: typeTask
-            caption: Тип заявки
+            caption: Type of request
           - field: predmetSupport
-            caption: Предмет поддержки
+            caption: Subject of support 
           - field: temaTask
-            caption: Тема заявки
+            caption: Subject of request
           - field: nameClassification
-            caption: Наименование классификации
+            caption: Classification name
           - field: coment
-            caption: Комментарий
+            caption: Comment
   - name: sellingPeriod
-    caption: Продажи
+    caption: Sales
     sheets:
       - name: sellingPeriod
-        caption: Продажи продуктов за период
+        caption: Product sales for the period
         type: aggregation
         source: selling
         fetch:
@@ -277,23 +277,23 @@ reports:
           event: $event
         rangeFilters:
           dateCreate:
-            caption: За период с|по
+            caption: For the period from|to
             format: date
             inclusive: both
         columns:
           - field: dateCreate
-            caption: Дата создания
+            caption: Date of creation
             format: date
           - field: organiz
-            caption: Аккаунт
+            caption: Account
           - field: product
-            caption: Продукт
+            caption: Product
           - field: price
-            caption: Цена продукта
+            caption: Price of product
           - field: state
-            caption: Статус продажи
+            caption: Sale status
           - field: event
-            caption: Дата и время событий по продаже
+            caption: Date and time of sales events
             format: date
         groups:
           fields:
@@ -301,10 +301,10 @@ reports:
             - product
             - event
   - name: marketingPeriod
-    caption: Маркетинговые мероприятия
+    caption: Marketing events
     sheets:
       - name: sellingPeriod
-        caption: Маркетинговые мероприятия за период
+        caption: Marketing events for the period
         type: aggregation
         source: marketing
         fetch:
@@ -315,32 +315,32 @@ reports:
           target: $target
         rangeFilters:
           dateCreate:
-            caption: За период с|по
+            caption: For the period from|to
             format: date
             inclusive: both
         columns:
           - field: dateCreate
-            caption: Дата создания
+            caption: Date of creation
             format: date
           - field: typeEvent
-            caption: Тип
+            caption: Type
           - field: product
-            caption: Продукты
+            caption: Products
           - field: participants
-            caption: Дата и время событий
+            caption: Date and time of events
             format: date
           - field: target
-            caption: Цели
+            caption: Target
         groups:
           fields:
             - typeEvent
             - product
             - participants
   - name: supportScenario
-    caption: Сценарии поддержки
+    caption: Support scenarios
     sheets:
       - name: supportScenario
-        caption: Сценарии поддержки
+        caption: Support scenarios
         type: aggregation
         source: supportScenarioSource
         fetch:
@@ -355,10 +355,10 @@ reports:
         params:
           intervalStart: 
             format: date
-            caption: Создан после
+            caption: Created after
           intervalEnd: 
             format: date
-            caption: Изменен после
+            caption: Changed after
         sort:
           support: asc
           taskClassification: asc
@@ -373,22 +373,22 @@ reports:
               - ':intervalEnd'
         columns:
           - field: dateCreate
-            caption: Дата создания
+            caption: Date of creation
             format: date
           - field: dateСhange
-            caption: Дата изменения
+            caption: Date of change
             format: date
           - field: support
-            caption: Предмет поддержки
+            caption: Subject of support
           - field: taskClassification
-            caption: Классификация
+            caption: Classification
           - field: name
-            caption: Наименование
+            caption: Name
             format: string
           - field: endTaskClassification
-            caption: Окончание классификации
+            caption: End of classification
           - field: scenario
-            caption: Сценарий
+            caption: Scenario
           - field: needRefactoringScenario
-            caption: Необходимо доработать сценарий
+            caption: Need to refine the scenario
 

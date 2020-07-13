@@ -6,7 +6,7 @@
   "semantic": "subject| |typeComunication",
   "name": "event",
   "version": "",
-  "caption": "Событие",
+  "caption": "Event",
   "ancestor": null,
   "container": null,
   "creationTracker": "creatDate",
@@ -20,7 +20,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -49,7 +49,7 @@
     {
       "orderNumber": 20,
       "name": "worker",
-      "caption": "Сотрудник",
+      "caption": "Employee",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -78,7 +78,7 @@
     {
       "orderNumber": 32,
       "name": "oworker",
-      "caption": "Ответственный сотрудник",
+      "caption": "Employee in charge",
       "type": 18,
       "size": null,
       "decimals": 0,
@@ -107,7 +107,7 @@
     {
       "orderNumber": 40,
       "name": "subject",
-      "caption": "Тема обращения",
+      "caption": "Subject of request",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -136,7 +136,7 @@
     {
       "orderNumber": 50,
       "name": "coment",
-      "caption": "Комментарий",
+      "caption": "Comment",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -165,7 +165,7 @@
     {
       "orderNumber": 60,
       "name": "before",
-      "caption": "Предыдущее событие",
+      "caption": "Previous event",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -194,7 +194,7 @@
     {
       "orderNumber": 70,
       "name": "after",
-      "caption": "Следующее событие",
+      "caption": "Following event",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -223,7 +223,7 @@
     {
       "orderNumber": 46,
       "name": "typeComunication",
-      "caption": "Тип коммуникации",
+      "caption": "Type of communication",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -249,15 +249,15 @@
         "list": [
           {
             "key": "call",
-            "value": "Звонок"
+            "value": "Call"
           },
           {
             "key": "metting",
-            "value": "Встреча"
+            "value": "Meeting"
           },
           {
             "key": "letter",
-            "value": "Письмо"
+            "value": "Letter"
           },
           {
             "key": "mail",
@@ -275,7 +275,7 @@
     {
       "orderNumber": 80,
       "name": "call",
-      "caption": "Звонок",
+      "caption": "Call",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -304,7 +304,7 @@
     {
       "orderNumber": 90,
       "name": "letter",
-      "caption": "Письмо",
+      "caption": "Letter",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -362,7 +362,7 @@
     {
       "orderNumber": 110,
       "name": "metting",
-      "caption": "Встреча",
+      "caption": "Meeting",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -391,7 +391,7 @@
     {
       "orderNumber": 120,
       "name": "creatDate",
-      "caption": "Дата создания",
+      "caption": "Date of creation",
       "type": 9,
       "size": null,
       "decimals": 0,

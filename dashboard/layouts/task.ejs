@@ -27,7 +27,7 @@ let toggleParams = {};
         widget: task,
         params: {
           id: 'usertask',
-          title: 'Все обращения пользователя',
+          title: 'All user requests',
         },
         redirect: 'registry/crm-ru@task',
         url: 'registry/api/task@crm-ru',
@@ -51,7 +51,7 @@ let toggleParams = {};
         widget: task,
         params: {
           id: 'sellroduct',
-          title: 'Продукты на продаже',
+          title: 'Products on sale',
         },
         redirect: 'registry/crm-ru@product',
         url: 'registry/api/product@crm-ru',
@@ -73,7 +73,7 @@ let toggleParams = {};
   <div class="dashboard-widget-tool hidden">
     <button type="button" class="btn btn-default widget-toggle mr10"
             data-params="<%= JSON.stringify(toggleParams) %>">
-      Виджеты
+      Widgets
       <span class="caret"></span>
     </button>
   </div>

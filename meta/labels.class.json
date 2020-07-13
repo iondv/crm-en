@@ -6,7 +6,7 @@
   "semantic": "labels",
   "name": "labels",
   "version": "",
-  "caption": "Метки",
+  "caption": "Labels",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "labels",
-      "caption": "Метка",
+      "caption": "Label",
       "type": 0,
       "size": null,
       "decimals": 0,

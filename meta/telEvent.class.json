@@ -6,7 +6,7 @@
   "semantic": "EventTime| |EventType",
   "name": "telEvent",
   "version": "",
-  "caption": "Звонок",
+  "caption": "Call",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "CallID",
-      "caption": "Идентификатор вызова",
+      "caption": "Call ID",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 21,
       "name": "EventTime",
-      "caption": "Дата события",
+      "caption": "Date of event",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "AN",
-      "caption": "Номер абонента",
+      "caption": "Caller number",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "UN",
-      "caption": "Универсальный номер",
+      "caption": "Universal number",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "DN1",
-      "caption": "Номер назначения при переадресации",
+      "caption": "Destination number of call forwarding",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "DN2",
-      "caption": "Номер назначения при переадресации оператором",
+      "caption": "Destination number of call forwarding by operator",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "EXT1",
-      "caption": "Короткий номер при переадресации",
+      "caption": "Short number for call forwarding",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 80,
       "name": "EXT2",
-      "caption": "Короткий номер при переадресации оператором",
+      "caption": "Short number for call forwarding by operator",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 90,
       "name": "DTMF",
-      "caption": "DTMF, набранный абонентом",
+      "caption": "DTMF dialed by caller",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -279,7 +279,7 @@
     {
       "orderNumber": 100,
       "name": "Result",
-      "caption": "Результат выполнения попытки переадресации",
+      "caption": "Result of a call forwarding attempt",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -308,7 +308,7 @@
     {
       "orderNumber": 110,
       "name": "EventType",
-      "caption": "Тип события",
+      "caption": "Type of event",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -334,63 +334,63 @@
         "list": [
           {
             "key": "CallAccepted",
-            "value": "Поступление вызова на платформу АС"
+            "value": "Receiving a call to the automated system"
           },
           {
             "key": "CallAnswered",
-            "value": "Ответ платформы на входящий вызов"
+            "value": "System response to an incoming call"
           },
           {
             "key": "HelloMessage",
-            "value": "Проиграно приветственное сообщение (если есть)"
+            "value": "Welcome message played (if any)"
           },
           {
             "key": "DTMF",
-            "value": "Получен DTMF от пользователя"
+            "value": "DTMF from the user received"
           },
           {
             "key": "T38",
-            "value": "Получено сообщение о посылке факса (по протоколу Т.38)"
+            "value": "A massage about sending a fax received  (according to T.38 protocol)"
           },
           {
             "key": "FaxTone",
-            "value": "Получено сообщение о посылке факса (факс тон)"
+            "value": "A massage about sending a fax received (fax tone)"
           },
           {
             "key": "RunIVR",
-            "value": "Запуск голосового меню"
+            "value": "Launch of the voice menu"
           },
           {
             "key": "GoToTransfer",
-            "value": "Начало переадресации на номер назначения"
+            "value": "Start call forwarding to the destination number"
           },
           {
             "key": "Transfer",
-            "value": "Результат переадресации на номер назначения"
+            "value": "Result of call forwarding to the destination number"
           },
           {
             "key": "GoToShortTransfer",
-            "value": "Начало переадресации на короткий номер"
+            "value": "Start call forwarding to a short number"
           },
           {
             "key": "ShortTransfer",
-            "value": "Результат переадресации на короткий номер"
+            "value": "Result of call forwarding to a short number"
           },
           {
             "key": "OperatorTransfer",
-            "value": "Начало перевода вызова по короткому номеру, введенному оператором"
+            "value": "Start transferring a call to a short number entered by the operator"
           },
           {
             "key": "RecStart",
-            "value": "Начало записи разговора"
+            "value": "Start recording a conversation"
           },
           {
             "key": "RecStop",
-            "value": "Конец записи разговора"
+            "value": "End of conversation recording"
           },
           {
             "key": "EndCall",
-            "value": "Завершение вызова"
+            "value": "End of call"
           }
         ],
         "matrix": [],
@@ -404,7 +404,7 @@
     {
       "orderNumber": 120,
       "name": "Event",
-      "caption": "Событие",
+      "caption": "Event",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -433,7 +433,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -462,7 +462,7 @@
     {
       "orderNumber": 130,
       "name": "lasting",
-      "caption": "Продолжительность звонка",
+      "caption": "Call duration",
       "type": 7,
       "size": null,
       "decimals": 0,
@@ -491,7 +491,7 @@
     {
       "orderNumber": 140,
       "name": "viewCall",
-      "caption": "Вид звонка",
+      "caption": "Type of call",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -517,11 +517,11 @@
         "list": [
           {
             "key": "enter",
-            "value": "Входящий"
+            "value": "Incoming"
           },
           {
             "key": "exit",
-            "value": "Исходящий"
+            "value": "Outgoing"
           }
         ],
         "matrix": [],
@@ -535,7 +535,7 @@
     {
       "orderNumber": 150,
       "name": "interior",
-      "caption": "Внутренний номер",
+      "caption": "Extension number",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -564,7 +564,7 @@
     {
       "orderNumber": 160,
       "name": "statusCall",
-      "caption": "Статус звонка",
+      "caption": "Call status",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -590,11 +590,11 @@
         "list": [
           {
             "key": "happy",
-            "value": "Состоялся"
+            "value": "Succeed"
           },
           {
             "key": "rejected",
-            "value": "Сброшен"
+            "value": "Rejected"
           }
         ],
         "matrix": [],
