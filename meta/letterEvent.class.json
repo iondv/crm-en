@@ -6,7 +6,7 @@
   "semantic": "data| |type| |status",
   "name": "letterEvent",
   "version": "",
-  "caption": "Письмо",
+  "caption": "Letter",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "data",
-      "caption": "Дата события",
+      "caption": "Date of event",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "type",
-      "caption": "Вид письма",
+      "caption": "Type of letter",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -73,11 +73,11 @@
         "list": [
           {
             "key": "enter",
-            "value": "Входящее"
+            "value": "Incoming"
           },
           {
             "key": "exit",
-            "value": "Исходящее"
+            "value": "Outgoing"
           }
         ],
         "matrix": [],
@@ -91,7 +91,7 @@
     {
       "orderNumber": 30,
       "name": "adress",
-      "caption": "Адрес",
+      "caption": "Adress",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -120,7 +120,7 @@
     {
       "orderNumber": 40,
       "name": "text",
-      "caption": "Содержание письма",
+      "caption": "Content of the letter",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -149,7 +149,7 @@
     {
       "orderNumber": 50,
       "name": "status",
-      "caption": "Статус доставки",
+      "caption": "Delivery status",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -175,11 +175,11 @@
         "list": [
           {
             "key": "delivery",
-            "value": "Доставлено"
+            "value": "Delivered"
           },
           {
             "key": "error",
-            "value": "Ошибка доставки"
+            "value": "Delivery failed"
           }
         ],
         "matrix": [],
@@ -193,7 +193,7 @@
     {
       "orderNumber": 5,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -222,7 +222,7 @@
     {
       "orderNumber": 60,
       "name": "affix",
-      "caption": "Вложения",
+      "caption": "Attachments",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -251,7 +251,7 @@
     {
       "orderNumber": 70,
       "name": "event",
-      "caption": "Событие",
+      "caption": "Event",
       "type": 13,
       "size": null,
       "decimals": 0,

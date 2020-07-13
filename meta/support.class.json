@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "support",
   "version": "",
-  "caption": "Предмет поддержки",
+  "caption": "Support subject",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 20,
       "name": "code",
-      "caption": "Код",
+      "caption": "Code",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 30,
       "name": "name",
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 40,
       "name": "information",
-      "caption": "Справочная информация",
+      "caption": "Reference information",
       "type": 2,
       "size": null,
       "decimals": 0,

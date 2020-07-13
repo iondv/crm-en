@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "role",
   "version": "",
-  "caption": "Эксплуатационная роль",
+  "caption": "Operational role",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 1,
       "size": null,
       "decimals": 0,
