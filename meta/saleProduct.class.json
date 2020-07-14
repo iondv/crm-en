@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "description",
-      "caption": "Komment",
+      "caption": "Comment",
       "type": 1,
       "size": null,
       "decimals": 0,

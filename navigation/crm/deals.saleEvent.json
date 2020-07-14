@@ -3,7 +3,7 @@
   "orderNumber": 3,
   "type": 1,
   "title": "",
-  "caption": "Событие продажи",
+  "caption": "Sale Event",
   "classname": "saleEvent",
   "container": null,
   "collection": null,

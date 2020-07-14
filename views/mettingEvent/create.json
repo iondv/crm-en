@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Тема встречи",
+          "caption": "Subject of meeting",
           "type": 1,
           "property": "inter",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Дата",
+          "caption": "Date",
           "type": 6,
           "property": "date",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Персона",
+          "caption": "Person",
           "type": 5,
           "property": "person",
           "size": 2,
@@ -69,7 +69,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -79,7 +79,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -89,7 +89,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -113,7 +113,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сотрудник",
+          "caption": "Employee",
           "type": 5,
           "property": "worker",
           "size": 2,
@@ -126,7 +126,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -136,7 +136,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -146,7 +146,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -170,7 +170,7 @@
           "selSorting": []
         },
         {
-          "caption": "Организация",
+          "caption": "Organization",
           "type": 5,
           "property": "organiz",
           "size": 2,
@@ -183,7 +183,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -193,7 +193,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -203,7 +203,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -227,7 +227,7 @@
           "selSorting": []
         },
         {
-          "caption": "Событие",
+          "caption": "Event",
           "type": 5,
           "property": "event",
           "size": 2,
@@ -240,7 +240,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -250,7 +250,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -260,7 +260,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -297,7 +297,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -307,7 +307,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
