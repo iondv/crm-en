@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Регион",
+          "caption": "Region",
           "type": 5,
           "property": "region",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": null
         },
         {
-          "caption": "Персона",
+          "caption": "Person",
           "type": 0,
           "property": "",
           "size": 2,
@@ -39,7 +39,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Имя",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -65,7 +65,7 @@
               "selSorting": null
             },
             {
-              "caption": "Отчество",
+              "caption": "Patronymic",
               "type": 1,
               "property": "patronymic",
               "size": 2,
@@ -91,7 +91,7 @@
               "selSorting": null
             },
             {
-              "caption": "Организация",
+              "caption": "Organization",
               "type": 5,
               "property": "organPerson",
               "size": 2,
@@ -104,7 +104,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -114,7 +114,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -124,7 +124,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -148,7 +148,7 @@
               "selSorting": null
             },
             {
-              "caption": "Должность",
+              "caption": "Position",
               "type": 1,
               "property": "position",
               "size": 2,
@@ -174,7 +174,7 @@
               "selSorting": null
             },
             {
-              "caption": "Адрес",
+              "caption": "Address",
               "type": 1,
               "property": "address",
               "size": 2,
@@ -200,7 +200,7 @@
               "selSorting": null
             },
             {
-              "caption": "Электронная почта",
+              "caption": "E-mail",
               "type": 1,
               "property": "email",
               "size": 2,
@@ -226,7 +226,7 @@
               "selSorting": null
             },
             {
-              "caption": "Телефон",
+              "caption": "Phone",
               "type": 1,
               "property": "phone",
               "size": 2,
@@ -252,7 +252,7 @@
               "selSorting": null
             },
             {
-              "caption": "Дополнительная информация",
+              "caption": "Additional information",
               "type": 7,
               "property": "extContact",
               "size": 2,
@@ -278,7 +278,7 @@
               "selSorting": null
             },
             {
-              "caption": "Фамилия",
+              "caption": "Surname",
               "type": 1,
               "property": "surname",
               "size": 2,
@@ -322,7 +322,7 @@
           "selSorting": null
         },
         {
-          "caption": "Продажи",
+          "caption": "Sales",
           "type": 3,
           "property": "eventSend",
           "size": 2,
@@ -333,7 +333,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Продукты",
+              "caption": "Products",
               "type": 3,
               "property": "product",
               "size": 2,
@@ -360,7 +360,7 @@
             },
             {
               "sorted": true,
-              "caption": "Ключевые персоны",
+              "caption": "Key persons",
               "type": 3,
               "property": "persons",
               "size": 2,
@@ -403,7 +403,7 @@
           "selSorting": null
         },
         {
-          "caption": "Заявки",
+          "caption": "Requests",
           "type": 3,
           "property": "task",
           "size": 2,
@@ -414,7 +414,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Предмет поддержки",
+              "caption": "Subject of request",
               "type": 2,
               "property": "support",
               "size": 2,
@@ -441,7 +441,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип коммуникации",
+              "caption": "Type of communication",
               "type": 5,
               "property": "typeComunication",
               "size": 2,
@@ -468,7 +468,7 @@
             },
             {
               "sorted": true,
-              "caption": "Дата создания",
+              "caption": "Date of creation",
               "type": 6,
               "property": "creatDate",
               "size": 2,
@@ -511,7 +511,7 @@
           "selSorting": []
         },
         {
-          "caption": "События",
+          "caption": "Events",
           "type": 3,
           "property": "event",
           "size": 2,
@@ -522,7 +522,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Ответственный сотрудник",
+              "caption": "Employee in charge",
               "type": 1,
               "property": "oworker",
               "size": 2,
@@ -549,7 +549,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тема обращения",
+              "caption": "Subject of request",
               "type": 1,
               "property": "subject",
               "size": 2,
@@ -576,7 +576,7 @@
             },
             {
               "sorted": true,
-              "caption": "Предыдущее событие",
+              "caption": "Previous event",
               "type": 2,
               "property": "before",
               "size": 2,
@@ -603,7 +603,7 @@
             },
             {
               "sorted": true,
-              "caption": "Следующее событие",
+              "caption": "Following event",
               "type": 2,
               "property": "after",
               "size": 2,
@@ -630,7 +630,7 @@
             },
             {
               "sorted": true,
-              "caption": "Тип коммуникации",
+              "caption": "Type of communication",
               "type": 1,
               "property": "typeComunication",
               "size": 2,
@@ -686,7 +686,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -696,7 +696,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -706,7 +706,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
