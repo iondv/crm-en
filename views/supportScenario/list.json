@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Наименование классификации",
+      "caption": "Name of classification",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Предмет поддержки",
+      "caption": "Subject of support",
       "type": 2,
       "property": "support",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Классификация",
+      "caption": "Classification",
       "type": 2,
       "property": "taskClassification",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Сценарий",
+      "caption": "Scenario",
       "type": 8,
       "property": "scenario",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Необходимо доработать сценарий",
+      "caption": "Scenario needs to be refined",
       "type": 4,
       "property": "needRefactoringScenario",
       "size": 2,
@@ -136,7 +136,7 @@
       "selSorting": []
     },
     {
-      "caption": "Дата и время изменения",
+      "caption": "Date and time of change",
       "type": 6,
       "property": "dateСhange",
       "size": 2,
@@ -170,7 +170,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -180,7 +180,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -190,7 +190,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

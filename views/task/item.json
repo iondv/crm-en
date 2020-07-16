@@ -1,10 +1,10 @@
 {
   "tabs": [
     {
-      "caption": "Данные",
+      "caption": "Data",
       "fullFields": [
         {
-          "caption": "Дата и время создания",
+          "caption": "Date and time of creation",
           "type": 6,
           "property": "dateCreate",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Создана сотрудником",
+          "caption": "Created by employee",
           "type": 1,
           "property": "creatorLogin",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Предмет поддержки",
+          "caption": "Subject of support",
           "type": 5,
           "property": "support",
           "size": 2,
@@ -67,7 +67,7 @@
           "commands": [
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -91,7 +91,7 @@
           "selSorting": []
         },
         {
-          "caption": "Выбор сценария поддержки",
+          "caption": "Support scenario selection",
           "type": 0,
           "property": "",
           "size": 2,
@@ -113,7 +113,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -150,7 +150,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -187,7 +187,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -224,7 +224,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -261,7 +261,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -298,7 +298,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -335,7 +335,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -372,7 +372,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -409,7 +409,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -446,7 +446,7 @@
               "commands": [
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -470,7 +470,7 @@
               "selSorting": []
             },
             {
-              "caption": "Подтверждение выбора сценария поддержки",
+              "caption": "Confirmation of support scenario selection",
               "type": 4,
               "property": "supportScenarioComplite",
               "size": 2,
@@ -496,7 +496,7 @@
               "selSorting": []
             },
             {
-              "caption": "Не найдено соответствие",
+              "caption": "No match found",
               "type": 4,
               "property": "notFoundScenario",
               "size": 2,
@@ -522,7 +522,7 @@
               "selSorting": []
             },
             {
-              "caption": "Комментарий",
+              "caption": "Comment",
               "type": 7,
               "property": "comment",
               "size": 2,
@@ -559,14 +559,14 @@
           "readonly": false,
           "selectionPaginated": true,
           "validators": null,
-          "hint": "Заполняется от верхнего уровня до необходимой детализации",
+          "hint": "Fill in from the top level to the required detail",
           "historyDisplayMode": 0,
           "tags": null,
           "selConditions": [],
           "selSorting": []
         },
         {
-          "caption": "Данные заявки",
+          "caption": "Request data",
           "type": 0,
           "property": "",
           "size": 2,
@@ -575,7 +575,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "Тип коммуникации",
+              "caption": "Type of communication",
               "type": 5,
               "property": "typeComunication",
               "size": 2,
@@ -601,7 +601,7 @@
               "selSorting": []
             },
             {
-              "caption": "Пользователь",
+              "caption": "User",
               "type": 5,
               "property": "user",
               "size": 2,
@@ -627,7 +627,7 @@
               "selSorting": []
             },
             {
-              "caption": "Все заявки пользователя",
+              "caption": "All user requests",
               "type": 3,
               "property": "taskUser",
               "size": 2,
@@ -638,7 +638,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Пользователь",
+                  "caption": "User",
                   "type": 2,
                   "property": "user",
                   "size": 2,
@@ -665,7 +665,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тема заявки",
+                  "caption": "Subject of request",
                   "type": 1,
                   "property": "subjectTask",
                   "size": 2,
@@ -692,7 +692,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип заявки",
+                  "caption": "Type of request",
                   "type": 7,
                   "property": "typeTask",
                   "size": 2,
@@ -735,7 +735,7 @@
               "selSorting": []
             },
             {
-              "caption": "Звонок",
+              "caption": "Call",
               "type": 5,
               "property": "call",
               "size": 2,
@@ -748,7 +748,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -758,7 +758,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -768,7 +768,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -792,7 +792,7 @@
               "selSorting": []
             },
             {
-              "caption": "Встреча",
+              "caption": "Meeting",
               "type": 5,
               "property": "metting",
               "size": 2,
@@ -805,7 +805,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -815,7 +815,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -825,7 +825,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -849,7 +849,7 @@
               "selSorting": []
             },
             {
-              "caption": "Письмо",
+              "caption": "Letter",
               "type": 5,
               "property": "letter",
               "size": 2,
@@ -862,7 +862,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -872,7 +872,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -882,7 +882,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -919,7 +919,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -929,7 +929,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -939,7 +939,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -963,7 +963,7 @@
               "selSorting": []
             },
             {
-              "caption": "Тип заявки",
+              "caption": "Type of request",
               "type": 5,
               "property": "typeTask",
               "size": 2,
@@ -989,7 +989,7 @@
               "selSorting": []
             },
             {
-              "caption": "Ссылка на задачу",
+              "caption": "Task link",
               "type": 17,
               "property": "linkTask",
               "size": 2,
@@ -1015,7 +1015,7 @@
               "selSorting": []
             },
             {
-              "caption": "Потребовалась консультация",
+              "caption": "Consultation required",
               "type": 4,
               "property": "consult",
               "size": 2,
@@ -1059,7 +1059,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сценарий поддержки",
+          "caption": "Support scenario",
           "type": 8,
           "property": "supportScenarioText",
           "size": 2,
@@ -1088,7 +1088,7 @@
         },
         {
           "sorted": true,
-          "caption": "Тема заявки",
+          "caption": "subject of request",
           "type": 1,
           "property": "subjectTask",
           "size": 2,
@@ -1127,7 +1127,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1137,7 +1137,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1147,7 +1147,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
