@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Роль",
+          "caption": "Role",
           "type": 3,
           "property": "role",
           "size": 2,
@@ -15,7 +15,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Наименование",
+              "caption": "Name",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -58,7 +58,7 @@
           "selSorting": []
         },
         {
-          "caption": "Персона",
+          "caption": "Person",
           "type": 5,
           "property": "person",
           "size": 2,
@@ -71,7 +71,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -81,7 +81,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -91,7 +91,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -115,7 +115,7 @@
           "selSorting": []
         },
         {
-          "caption": "Организация",
+          "caption": "Organization",
           "type": 5,
           "property": "organiz",
           "size": 2,
@@ -128,7 +128,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Создать",
+              "caption": "Create",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -138,7 +138,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Править",
+              "caption": "Edit",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -148,7 +148,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -172,7 +172,7 @@
           "selSorting": []
         },
         {
-          "caption": "Дата начала работы в организации",
+          "caption": "Start date of work in organization",
           "type": 120,
           "property": "dateStart",
           "size": 2,
@@ -198,7 +198,7 @@
           "selSorting": []
         },
         {
-          "caption": "Дата окончания работы в организации",
+          "caption": "End date of work in organization",
           "type": 120,
           "property": "dateEnd",
           "size": 2,
@@ -224,7 +224,7 @@
           "selSorting": []
         },
         {
-          "caption": "Рабочий телефон",
+          "caption": "Office phone number",
           "type": 1,
           "property": "phone",
           "size": 2,
@@ -250,7 +250,7 @@
           "selSorting": []
         },
         {
-          "caption": "Рабочая эл. почта",
+          "caption": "Office e-mail",
           "type": 1,
           "property": "mail",
           "size": 2,
@@ -276,7 +276,7 @@
           "selSorting": []
         },
         {
-          "caption": "Пользователь",
+          "caption": "User",
           "type": 1,
           "property": "user",
           "size": 2,
@@ -315,7 +315,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -325,7 +325,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -335,7 +335,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

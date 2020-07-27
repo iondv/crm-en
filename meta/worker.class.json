@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "dateEnd",
-      "caption": "End date of work in the organization",
+      "caption": "End date of work in organization",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "phone",
-      "caption": "Office phone",
+      "caption": "Office phone number",
       "type": 0,
       "size": null,
       "decimals": 0,

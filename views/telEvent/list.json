@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Дата события",
+      "caption": "Date of event",
       "type": 6,
       "property": "EventTime",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Короткий номер при переадресации",
+      "caption": "Short number for call forwarding",
       "type": 1,
       "property": "EXT1",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Номер назначения при переадресации оператором",
+      "caption": "Destination number for call forwarding by operator",
       "type": 1,
       "property": "DN2",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Номер назначения при переадресации",
+      "caption": "Destination number for call forwarding",
       "type": 1,
       "property": "DN1",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Универсальный номер",
+      "caption": "Universal number",
       "type": 1,
       "property": "UN",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Номер абонента",
+      "caption": "Caller number",
       "type": 1,
       "property": "AN",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Результат выполнения попытки переадресации",
+      "caption": "Result of call forwarding attempt",
       "type": 1,
       "property": "Result",
       "size": 2,
@@ -191,7 +191,7 @@
     },
     {
       "sorted": true,
-      "caption": "DTMF, набранный абонентом",
+      "caption": "DTMF dialed by operator",
       "type": 1,
       "property": "DTMF",
       "size": 2,
@@ -218,7 +218,7 @@
     },
     {
       "sorted": true,
-      "caption": "Короткий номер при переадресации оператором",
+      "caption": "Short number for call forwarding by operator",
       "type": 1,
       "property": "EXT2",
       "size": 2,
@@ -245,7 +245,7 @@
     },
     {
       "sorted": true,
-      "caption": "Событие",
+      "caption": "Event",
       "type": 2,
       "property": "Event",
       "size": 2,
@@ -272,7 +272,7 @@
     },
     {
       "sorted": true,
-      "caption": "Тип события",
+      "caption": "Type of event",
       "type": 14,
       "property": "EventType",
       "size": 2,
@@ -299,7 +299,7 @@
     },
     {
       "sorted": true,
-      "caption": "Идентификатор вызова",
+      "caption": "Call ID",
       "type": 1,
       "property": "CallID",
       "size": 2,
@@ -334,7 +334,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -344,7 +344,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -354,7 +354,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

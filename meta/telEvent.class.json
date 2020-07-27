@@ -279,7 +279,7 @@
     {
       "orderNumber": 100,
       "name": "Result",
-      "caption": "Result of a call forwarding attempt",
+      "caption": "Result of call forwarding attempt",
       "type": 0,
       "size": null,
       "decimals": 0,

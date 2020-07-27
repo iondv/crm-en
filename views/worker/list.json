@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Роль",
+      "caption": "Role",
       "type": 3,
       "property": "role",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Персона",
+      "caption": "Person",
       "type": 2,
       "property": "person",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Организация",
+      "caption": "Organization",
       "type": 2,
       "property": "organiz",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата начала работы в организации",
+      "caption": "Start date of work in organization",
       "type": 120,
       "property": "dateStart",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Дата окончания работы в организации",
+      "caption": "End date of work in organization",
       "type": 120,
       "property": "dateEnd",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Рабочий телефон",
+      "caption": "Office phone number",
       "type": 1,
       "property": "phone",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Рабочая эл. почта",
+      "caption": "Office e-mail",
       "type": 1,
       "property": "mail",
       "size": 2,
@@ -199,7 +199,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -219,7 +219,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

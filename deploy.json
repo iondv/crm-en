@@ -2,8 +2,8 @@
   "namespace": "crm-ru",
   "globals": {
     "moduleTitles": {
-      "registry": "Тех. поддержка",
-      "report": "Отчеты"
+      "registry": "Tech support",
+      "report": "Reports"
     },
     "plugins": {
       "actualAclProvider":{
