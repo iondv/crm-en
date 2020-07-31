@@ -1,8 +1,8 @@
 {
   "columns": [
     {
-      "sorted": true,
-      "caption": "Роль",
+      "sorted": false,
+      "caption": "Role",
       "type": 3,
       "property": "role",
       "size": 2,
