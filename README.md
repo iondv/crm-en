@@ -9,12 +9,12 @@ The demo version shows an example of using the system to provide technical suppo
 
 ## Demo
 
-Demo access to view the system without registration: https://crm-ru.iondv.ru
+Demo access to view the system without registration: https://crm-en.iondv.ru
 
 Login: **demo**, password: **ion-demo**.
 
 Additional advantages:
-- Open source code for all system components – https://github.com/iondv/crm-ru;
+- Open source code for all system components – https://github.com/iondv/crm-en;
 - Open software used for DBMS and server OS (running for linux and windows);
 - Any adaptation and modernization of the system is available, including data structures modernization without programming in a visual editor;
 - Launch your own version in a few minutes – see [How to get](#how-to-get)

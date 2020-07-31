@@ -1,6 +1,6 @@
 {
     "name": "product",
-    "namespace": "crm-ru",
+    "namespace": "crm-en",
     "caption": "Sale of product",
     "wfClass": "product",
     "startState": "create",

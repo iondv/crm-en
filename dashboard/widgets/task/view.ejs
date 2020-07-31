@@ -37,14 +37,14 @@
         }).done(function (data) {
           if (data && data.recordsTotal) {
             $widget.addClass('bg-success');
-            $content.html('Number of records - <span class="counter">'+ data.recordsTotal +'</span>');
+            $content.html('Количество записей - <span class="counter">'+ data.recordsTotal +'</span>');
           } else {
             $widget.addClass('bg-default');
-            $content.html('The list is empty');
+            $content.html('Список пуст');
           }
         }).fail(function (xhr) {
           $widget.addClass('bg-danger');
-          $content.html('Error receiving data');
+          $content.html('Ошибка получения данных');
         }).always(function () {
           $widget.removeClass('loading bg-white');
           next();

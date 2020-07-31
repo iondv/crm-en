@@ -1,6 +1,7 @@
 {
-  "namespace": "crm-ru",
+  "namespace": "crm-en",
   "globals": {
+    "pageTitle": "IS CRM",
     "moduleTitles": {
       "registry": "Tech support",
       "report": "Reports"
@@ -63,11 +64,11 @@
       "globals": {
         "defaultImageDir": "images",
         "contentImageStorage": "htmlImages",
-        "defaultPath": "crm-ru@task",
+        "defaultPath": "crm-en@task",
         "inlineForm": true,
         "navigation": {
           "namespaces": {
-            "crm-ru": "Тех. поддержка"
+            "crm-en": "Тех. поддержка"
           },
           "menus": {
             "left": [
@@ -77,29 +78,63 @@
         },
         "eagerLoading": {
           "*": {
-            "saleEvent@crm-ru": {
+            "saleEvent@crm-en": {
               "list": [
                 "selling.organiz.organName"
               ]
             },
-            "selling@crm-ru": {
+            "selling@crm-en": {
               "list": [
+                "product.name.name",
+                "organiz.region.name",
+                "market.typeEvent.name"
+              ]
+            },
+            "marketing@crm-en": {
+              "list": [
+                "organization.region.name",
+                "selling.organiz.region.name",
                 "product.name.name"
+              ],
+              "item": [
+                "selling.organiz.region.name"
+              ]
+            },
+            "worker@crm-en": {
+              "list": [
+                "organiz.region.name"
+              ]
+            },
+            "event@crm-en": {
+              "list": [
+                "worker.role.name",
+                "worker.person"
+              ]
+            },
+            "person@crm-en": {
+              "list": [
+                "organPerson.region.name",
+                "eventSend.organiz"
+              ]
+            },
+            "organization@crm-en": {
+              "list": [
+                "eventMarket.typeEvent.name"
               ]
             }
           }
         },
         "templates": [
-          "applications/crm-ru/templates/registry"
+          "applications/crm-en/templates/registry"
         ],
         "statics": {
-          "crm-static": "applications/crm-ru/templates/registry/static",
-          "app-vendor": "applications/crm-ru/themes/registry/node_modules",
-          "common-static": "applications/crm-ru/templates/static"
-        },  
+          "crm-static": "applications/crm-en/templates/registry/static",
+          "app-vendor": "applications/crm-en/themes/registry/vendor",
+          "common-static": "applications/crm-en/templates/static"
+        }, 
         "createByCopy": [
-            "task@crm-ru",
-            "telEvent@crm-ru"
+            "task@crm-en",
+            "telEvent@crm-en"
         ],
         "di": {
           "dataRepo": {
@@ -120,24 +155,31 @@
               "maxEagerDepth": 4
             }
           }
+        },
+        "dashboard": {
+          "crm-en": {
+            "modules": {
+              "dashboard": {}
+            }
+          }
         }
       }
     },
     "report": {
       "globals": {
         "namespaces": {
-          "crm-ru": "CRM"
+          "crm-en": "CRM"
         },
         "metaNav": {
           "left": []
         },
         "defaultNav": {
-          "namespace": "crm-ru",
+          "namespace": "crm-en",
           "mine": "support",
           "report": "technicalSupport"
         },
         "mineBuilders": {
-          "crm-ru": {
+          "crm-en": {
             "support": {
               "task": "mineBuilder",
               "support": "mineBuilder",
@@ -151,17 +193,17 @@
         }
       },
       "import": {
-        "src": "applications/crm-ru/bi",
-        "namespace": "crm-ru"
+        "src": "applications/crm-en/bi",
+        "namespace": "crm-en"
       }
     },
     "dashboard": {
       "globals": {
         "namespaces": {
-          "crm-ru": "Техническая поддержка"
+          "crm-en": "Техническая поддержка"
         },
         "root": {
-          "sakh-pm": "applications/crm-ru/dashboard"
+          "sakh-pm": "applications/crm-en/dashboard"
         },
         "layouts": {
           "task": {
