@@ -5,7 +5,7 @@
       "fullFields": [
         {
           "sorted": true,
-          "caption": "Date of letter",
+          "caption": "Дата письма",
           "type": 120,
           "property": "date",
           "size": 2,
@@ -32,7 +32,7 @@
         },
         {
           "sorted": true,
-          "caption": "Sender address",
+          "caption": "Адрес отправителя",
           "type": 1,
           "property": "addrSender",
           "size": 2,
@@ -59,7 +59,7 @@
         },
         {
           "sorted": true,
-          "caption": "Subject of letter",
+          "caption": "Тема письма",
           "type": 1,
           "property": "subject",
           "size": 2,
@@ -86,7 +86,7 @@
         },
         {
           "sorted": true,
-          "caption": "Content of letter",
+          "caption": "Содержание письма",
           "type": 7,
           "property": "body",
           "size": 2,
@@ -113,7 +113,7 @@
         },
         {
           "sorted": true,
-          "caption": "Event",
+          "caption": "Событие",
           "type": 5,
           "property": "Event",
           "size": 2,
@@ -126,7 +126,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -136,7 +136,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -146,7 +146,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -183,7 +183,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -193,7 +193,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -203,7 +203,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

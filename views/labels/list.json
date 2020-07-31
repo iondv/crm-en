@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Label",
+      "caption": "Метка",
       "type": 1,
       "property": "labels",
       "size": 2,
@@ -37,7 +37,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -47,7 +47,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -57,7 +57,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

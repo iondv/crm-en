@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Subject of meeting",
+      "caption": "Тема встречи",
       "type": 1,
       "property": "inter",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Date",
+      "caption": "Дата",
       "type": 120,
       "property": "date",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Person",
+      "caption": "Персона",
       "type": 2,
       "property": "person",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Employee",
+      "caption": "Сотрудник",
       "type": 2,
       "property": "worker",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Organization",
+      "caption": "Организация",
       "type": 2,
       "property": "organiz",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Event",
+      "caption": "Событие",
       "type": 2,
       "property": "event",
       "size": 2,
@@ -172,7 +172,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -182,7 +182,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -192,7 +192,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

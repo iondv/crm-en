@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Type of communication",
+          "caption": "Тип коммуникации",
           "type": 5,
           "property": "typeComunication",
           "size": 2,
@@ -29,7 +29,7 @@
           "selSorting": []
         },
         {
-          "caption": "Subject of support",
+          "caption": "Предмет поддержки",
           "type": 5,
           "property": "support",
           "size": 2,
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caption": "Support scenario",
+          "caption": "Сценарий поддержки",
           "type": 8,
           "property": "supportScenarioText",
           "size": 2,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caption": "Confirmation of support scenario selection",
+          "caption": "Подтверждение выбора сценария поддержки",
           "type": 4,
           "property": "supportScenarioComplite",
           "size": 2,
@@ -110,7 +110,7 @@
           "selSorting": []
         },
         {
-          "caption": "Consultation required",
+          "caption": "Потребовалась консультация",
           "type": 4,
           "property": "consult",
           "size": 2,
@@ -135,7 +135,7 @@
           "selSorting": []
         },
         {
-          "caption": "No match found",
+          "caption": "Не найдено соответствие",
           "type": 4,
           "property": "notFoundScenario",
           "size": 2,
@@ -160,7 +160,7 @@
           "selSorting": []
         },
         {
-          "caption": "Comment",
+          "caption": "Комментарий",
           "type": 7,
           "property": "comment",
           "size": 2,
@@ -198,7 +198,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -208,7 +208,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "date",
-      "caption": "Date of e-mail",
+      "caption": "Дата письма",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "addrSender",
-      "caption": "Sender address",
+      "caption": "Адрес отправителя",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "subject",
-      "caption": "E-mail subject",
+      "caption": "Тема письма",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "body",
-      "caption": "E-mail contents",
+      "caption": "Содержание письма",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "Event",
-      "caption": "Event",
+      "caption": "Событие",
       "type": 13,
       "size": null,
       "decimals": 0,

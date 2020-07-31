@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Type of marketing",
+          "caption": "Тип маркетинга",
           "type": 5,
           "property": "typeEvent",
           "size": 2,
@@ -17,7 +17,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -27,7 +27,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -37,7 +37,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -61,7 +61,7 @@
           "selSorting": null
         },
         {
-          "caption": "Events",
+          "caption": "События",
           "type": 3,
           "property": "participants",
           "size": 2,
@@ -72,7 +72,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Type",
+              "caption": "Тип",
               "type": 2,
               "property": "typeEvent",
               "size": 2,
@@ -99,7 +99,7 @@
             },
             {
               "sorted": true,
-              "caption": "Date of event",
+              "caption": "Дата события",
               "type": 120,
               "property": "dateEvent",
               "size": 2,
@@ -142,7 +142,7 @@
           "selSorting": null
         },
         {
-          "caption": "Files",
+          "caption": "Файлы",
           "type": 110,
           "property": "files",
           "size": 2,
@@ -168,7 +168,7 @@
           "selSorting": null
         },
         {
-          "caption": "Products",
+          "caption": "Продукты",
           "type": 3,
           "property": "product",
           "size": 2,
@@ -179,7 +179,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Name",
+              "caption": "Наименование",
               "type": 2,
               "property": "name",
               "size": 2,
@@ -206,7 +206,7 @@
             },
             {
               "sorted": true,
-              "caption": "Price",
+              "caption": "Цена",
               "type": 1,
               "property": "price",
               "size": 2,
@@ -249,7 +249,7 @@
           "selSorting": null
         },
         {
-          "caption": "Sales",
+          "caption": "Продажи",
           "type": 3,
           "property": "selling",
           "size": 2,
@@ -260,7 +260,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Product",
+              "caption": "Продукт",
               "type": 3,
               "property": "product",
               "size": 2,
@@ -287,7 +287,7 @@
             },
             {
               "sorted": true,
-              "caption": "Organization",
+              "caption": "Организация",
               "type": 2,
               "property": "organiz",
               "size": 2,
@@ -330,7 +330,7 @@
           "selSorting": null
         },
         {
-          "caption": "Targets",
+          "caption": "Цели",
           "type": 7,
           "property": "target",
           "size": 2,
@@ -356,7 +356,7 @@
           "selSorting": null
         },
         {
-          "caption": "Audience",
+          "caption": "Аудитория",
           "type": 7,
           "property": "auditor",
           "size": 2,
@@ -382,7 +382,7 @@
           "selSorting": null
         },
         {
-          "caption": "Comment",
+          "caption": "Комментарий",
           "type": 7,
           "property": "comment",
           "size": 2,
@@ -408,7 +408,7 @@
           "selSorting": null
         },
         {
-          "caption": "Organizations involved",
+          "caption": "Участвующие организации",
           "type": 3,
           "property": "organization",
           "size": 2,
@@ -419,7 +419,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Regions",
+              "caption": "Регион",
               "type": 2,
               "property": "region",
               "size": 2,
@@ -446,7 +446,7 @@
             },
             {
               "sorted": true,
-              "caption": "Name",
+              "caption": "Наименование",
               "type": 1,
               "property": "organName",
               "size": 2,
@@ -489,7 +489,7 @@
           "selSorting": null
         },
         {
-          "caption": "Participating persons",
+          "caption": "Учавствующие персоны",
           "type": 3,
           "property": "person",
           "size": 2,
@@ -500,7 +500,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Surname",
+              "caption": "Фамилия",
               "type": 1,
               "property": "surname",
               "size": 2,
@@ -527,7 +527,7 @@
             },
             {
               "sorted": true,
-              "caption": "Organization of the person",
+              "caption": "Организация персоны",
               "type": 2,
               "property": "organPerson",
               "size": 2,
@@ -554,7 +554,7 @@
             },
             {
               "sorted": true,
-              "caption": "Name",
+              "caption": "Имя",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -610,7 +610,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -620,7 +620,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -630,7 +630,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

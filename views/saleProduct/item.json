@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Name of product",
+          "caption": "Наименование продукта",
           "type": 5,
           "property": "name",
           "size": 2,
@@ -17,7 +17,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -27,7 +27,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -37,7 +37,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -61,7 +61,7 @@
           "selSorting": []
         },
         {
-          "caption": "Comment",
+          "caption": "Коментарий",
           "type": 7,
           "property": "description",
           "size": 2,
@@ -87,7 +87,7 @@
           "selSorting": []
         },
         {
-          "caption": "Price",
+          "caption": "Цена",
           "type": 1,
           "property": "price",
           "size": 2,
@@ -113,7 +113,7 @@
           "selSorting": []
         },
         {
-          "caption": "Pricing structure",
+          "caption": "Структура расчета цены",
           "type": 7,
           "property": "struct",
           "size": 2,
@@ -139,7 +139,7 @@
           "selSorting": []
         },
         {
-          "caption": "Quantity",
+          "caption": "Количество",
           "type": 1,
           "property": "quantity",
           "size": 2,
@@ -165,7 +165,7 @@
           "selSorting": []
         },
         {
-          "caption": "Documentation",
+          "caption": "Документация",
           "type": 110,
           "property": "doc",
           "size": 2,
@@ -204,7 +204,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -214,7 +214,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -224,7 +224,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

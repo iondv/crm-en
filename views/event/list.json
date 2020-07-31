@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Employee",
+      "caption": "Сотрудник",
       "type": 2,
       "property": "worker",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Employee in charge",
+      "caption": "Ответственный сотрудник",
       "type": 1,
       "property": "oworker",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Subject of request",
+      "caption": "Тема обращения",
       "type": 1,
       "property": "subject",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Comment",
+      "caption": "Комментарий",
       "type": 7,
       "property": "coment",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Previous event",
+      "caption": "Предыдущее событие",
       "type": 2,
       "property": "before",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Following event",
+      "caption": "Следующее событие",
       "type": 2,
       "property": "after",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Type of communication",
+      "caption": "Тип коммуникации",
       "type": 1,
       "property": "typeComunication",
       "size": 2,
@@ -199,7 +199,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -219,7 +219,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

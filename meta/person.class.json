@@ -6,7 +6,7 @@
   "semantic": "surname| |name| |patronymic",
   "name": "person",
   "version": "",
-  "caption": "Person",
+  "caption": "Персона",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -20,7 +20,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -49,7 +49,7 @@
     {
       "orderNumber": 15,
       "name": "region",
-      "caption": "Region",
+      "caption": "Регион",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -78,7 +78,7 @@
     {
       "orderNumber": 32,
       "name": "surname",
-      "caption": "Surname",
+      "caption": "Фамилия",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -107,7 +107,7 @@
     {
       "orderNumber": 35,
       "name": "name",
-      "caption": "Name",
+      "caption": "Имя",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -136,7 +136,7 @@
     {
       "orderNumber": 37,
       "name": "patronymic",
-      "caption": "Patronymic",
+      "caption": "Отчество",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -165,7 +165,7 @@
     {
       "orderNumber": 45,
       "name": "organPerson",
-      "caption": "Organization of the person",
+      "caption": "Организация персоны",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -194,7 +194,7 @@
     {
       "orderNumber": 50,
       "name": "address",
-      "caption": "Address",
+      "caption": "Адрес",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -223,7 +223,7 @@
     {
       "orderNumber": 60,
       "name": "email",
-      "caption": "E-mail",
+      "caption": "Электронная почта",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -252,7 +252,7 @@
     {
       "orderNumber": 70,
       "name": "phone",
-      "caption": "Phone",
+      "caption": "Телефон",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -281,7 +281,7 @@
     {
       "orderNumber": 80,
       "name": "extContact",
-      "caption": "Additional information",
+      "caption": "Дополнительная информация",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -310,7 +310,7 @@
     {
       "orderNumber": 91,
       "name": "eventSend",
-      "caption": "Sales",
+      "caption": "Продажи",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -339,7 +339,7 @@
     {
       "orderNumber": 43,
       "name": "position",
-      "caption": "Position",
+      "caption": "Должность",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -368,7 +368,7 @@
     {
       "orderNumber": 100,
       "name": "task",
-      "caption": "Requests",
+      "caption": "Заявки",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -390,7 +390,7 @@
       "selConditions": [],
       "selSorting": [
         {
-          "property": "creatDate",
+          "property": "dateCreate",
           "mode": 1
         }
       ],
@@ -402,7 +402,7 @@
     {
       "orderNumber": 110,
       "name": "allRequestsUser",
-      "caption": "All user requests",
+      "caption": "Все запросы пользователя",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -431,7 +431,7 @@
     {
       "orderNumber": 120,
       "name": "event",
-      "caption": "Events",
+      "caption": "События",
       "type": 14,
       "size": null,
       "decimals": 0,

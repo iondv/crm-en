@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Date and time of event",
+      "caption": "Дата и время события",
       "type": 6,
       "property": "dateEvent",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Duration",
+      "caption": "Продолжительность",
       "type": 1,
       "property": "duration",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Description",
+      "caption": "Описание",
       "type": 7,
       "property": "description",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Documents",
+      "caption": "Документы",
       "type": 110,
       "property": "files",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Product",
+      "caption": "Продукт",
       "type": 3,
       "property": "product",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Selling",
+      "caption": "Продажа",
       "type": 2,
       "property": "selling",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Previous event",
+      "caption": "Событие предшественник",
       "type": 3,
       "property": "prevEvent",
       "size": 2,
@@ -191,7 +191,7 @@
     },
     {
       "sorted": true,
-      "caption": "Following event",
+      "caption": "Следующее событие",
       "type": 3,
       "property": "nextEvent",
       "size": 2,
@@ -218,7 +218,7 @@
     },
     {
       "sorted": true,
-      "caption": "Requests",
+      "caption": "Заявки",
       "type": 2,
       "property": "task",
       "size": 2,
@@ -245,7 +245,7 @@
     },
     {
       "sorted": true,
-      "caption": "Phone event",
+      "caption": "Телефонный эвент",
       "type": 3,
       "property": "telEvent",
       "size": 2,
@@ -272,7 +272,7 @@
     },
     {
       "sorted": true,
-      "caption": "Mass event",
+      "caption": "Массовое мероприятие",
       "type": 4,
       "property": "massEvent",
       "size": 2,
@@ -299,7 +299,7 @@
     },
     {
       "sorted": true,
-      "caption": "Participating persons",
+      "caption": "Учавствующие персоны",
       "type": 3,
       "property": "personEvent",
       "size": 2,
@@ -326,7 +326,7 @@
     },
     {
       "sorted": true,
-      "caption": "Organizations involved",
+      "caption": "Учавствующие организации",
       "type": 3,
       "property": "organEvent",
       "size": 2,
@@ -353,7 +353,7 @@
     },
     {
       "sorted": true,
-      "caption": "Marketing",
+      "caption": "Маркетинг",
       "type": 2,
       "property": "market",
       "size": 2,
@@ -388,7 +388,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -398,7 +398,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -408,7 +408,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

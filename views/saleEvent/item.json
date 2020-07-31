@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Type of event",
+          "caption": "Тип события",
           "type": 1,
           "property": "typeEvent",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Date and time of event",
+          "caption": "Дата и время события",
           "type": 6,
           "property": "dateEvent",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Date and time of event",
+          "caption": "Дата и время события",
           "type": 120,
           "property": "dateEvent",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Description",
+          "caption": "Описание",
           "type": 7,
           "property": "description",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Documents",
+          "caption": "Документы",
           "type": 110,
           "property": "files",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Product",
+          "caption": "Продукт",
           "type": 3,
           "property": "product",
           "size": 2,
@@ -145,7 +145,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Name",
+              "caption": "Наименование",
               "type": 2,
               "property": "name",
               "size": 2,
@@ -172,7 +172,7 @@
             },
             {
               "sorted": true,
-              "caption": "Price",
+              "caption": "Цена",
               "type": 1,
               "property": "price",
               "size": 2,
@@ -215,7 +215,7 @@
           "selSorting": []
         },
         {
-          "caption": "Selling",
+          "caption": "Продажа",
           "type": 5,
           "property": "selling",
           "size": 2,
@@ -228,7 +228,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -238,7 +238,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -248,7 +248,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -272,7 +272,7 @@
           "selSorting": []
         },
         {
-          "caption": "Previous event",
+          "caption": "Событие предшественник",
           "type": 3,
           "property": "prevEvent",
           "size": 2,
@@ -283,7 +283,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Type of event",
+              "caption": "Тип события",
               "type": 1,
               "property": "typeEvent",
               "size": 2,
@@ -310,7 +310,7 @@
             },
             {
               "sorted": true,
-              "caption": "Date and time of event",
+              "caption": "Дата и время события",
               "type": 120,
               "property": "dateEvent",
               "size": 2,
@@ -353,7 +353,7 @@
           "selSorting": []
         },
         {
-          "caption": "Following event",
+          "caption": "Следующее событие",
           "type": 3,
           "property": "nextEvent",
           "size": 2,
@@ -364,7 +364,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Type of event",
+              "caption": "Тип события",
               "type": 1,
               "property": "typeEvent",
               "size": 2,
@@ -391,7 +391,7 @@
             },
             {
               "sorted": true,
-              "caption": "Date and time of event",
+              "caption": "Дата и время события",
               "type": 120,
               "property": "dateEvent",
               "size": 2,
@@ -434,7 +434,7 @@
           "selSorting": []
         },
         {
-          "caption": "Marketing",
+          "caption": "Маркетинг",
           "type": 5,
           "property": "market",
           "size": 2,
@@ -447,7 +447,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -457,7 +457,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -467,7 +467,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -491,7 +491,7 @@
           "selSorting": []
         },
         {
-          "caption": "Organizations involved",
+          "caption": "Учавствующие организации",
           "type": 3,
           "property": "organEvent",
           "size": 2,
@@ -502,7 +502,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Region",
+              "caption": "Регион",
               "type": 2,
               "property": "region",
               "size": 2,
@@ -529,7 +529,7 @@
             },
             {
               "sorted": true,
-              "caption": "Name of organization",
+              "caption": "Наименование организации",
               "type": 1,
               "property": "organName",
               "size": 2,
@@ -572,7 +572,7 @@
           "selSorting": []
         },
         {
-          "caption": "Participating persons",
+          "caption": "Учавствующие персоны",
           "type": 3,
           "property": "personEvent",
           "size": 2,
@@ -583,7 +583,7 @@
           "columns": [
             {
               "sorted": true,
-              "caption": "Region",
+              "caption": "Регион",
               "type": 2,
               "property": "region",
               "size": 2,
@@ -610,7 +610,7 @@
             },
             {
               "sorted": true,
-              "caption": "Surname",
+              "caption": "Фамилия",
               "type": 1,
               "property": "surname",
               "size": 2,
@@ -637,7 +637,7 @@
             },
             {
               "sorted": true,
-              "caption": "Name",
+              "caption": "Имя",
               "type": 1,
               "property": "name",
               "size": 2,
@@ -664,7 +664,7 @@
             },
             {
               "sorted": true,
-              "caption": "Patronymic",
+              "caption": "Отчество",
               "type": 1,
               "property": "patronymic",
               "size": 2,
@@ -691,7 +691,7 @@
             },
             {
               "sorted": true,
-              "caption": "Position",
+              "caption": "Должность",
               "type": 1,
               "property": "position",
               "size": 2,
@@ -734,7 +734,7 @@
           "selSorting": []
         },
         {
-          "caption": "Mass event",
+          "caption": "Массовое мероприятие",
           "type": 4,
           "property": "massEvent",
           "size": 2,
@@ -760,7 +760,7 @@
           "selSorting": []
         },
         {
-          "caption": "Requests",
+          "caption": "Заявки",
           "type": 5,
           "property": "task",
           "size": 2,
@@ -773,7 +773,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -783,7 +783,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -793,7 +793,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -817,7 +817,7 @@
           "selSorting": []
         },
         {
-          "caption": "Call",
+          "caption": "Звонок",
           "type": 5,
           "property": "coll",
           "size": 2,
@@ -830,7 +830,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -840,7 +840,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -850,7 +850,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -874,7 +874,7 @@
           "selSorting": []
         },
         {
-          "caption": "Meeting",
+          "caption": "Встреча",
           "type": 5,
           "property": "metting",
           "size": 2,
@@ -887,7 +887,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -897,7 +897,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -907,7 +907,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -931,7 +931,7 @@
           "selSorting": []
         },
         {
-          "caption": "Letter",
+          "caption": "Письмо",
           "type": 5,
           "property": "letter",
           "size": 2,
@@ -944,7 +944,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -954,7 +954,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -964,7 +964,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -1001,7 +1001,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -1011,7 +1011,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -1021,7 +1021,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -1058,7 +1058,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1068,7 +1068,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1078,7 +1078,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

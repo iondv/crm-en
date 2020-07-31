@@ -1,64 +1,60 @@
 # IONDV. CRM
-## Description
+## Описание
 
-IONDV. CRM is a software solution based on the IONDV. Framework, implemented for the organization of registration, accounting, storage and display of business data (incoming requests, calls, visitors, products, services). The system allows you to organize scenarios for answering calls, keep records of emails and calls, conduct sales of products and activities based on them, keep track of marketing events, maintain a data base of individual and company clients, compile directories, make reports, etc.
+IONDV. CRM – это программное решение на основе IONDV. Framework, реализованное для организации регистрации, учета, хранения и отображения бизнес-данных (входящие заявки, звонки, посетители, продукция, услуги). Система позволяет организовать сценарии ответов по звонкам, учитывать письма и звонки, вести продажи продуктов и деятельности по ним, осуществлять учет маркетинговых мероприятий, вести клиентскую базу частных лиц и организаций, составлять справочники, делать отчеты и др.
 
-The demo version shows an example of using the system to provide technical support – it allows you to register incoming requests from users in various forms (letters, calls, meetings, e-mail). In this case, the demo version shows an example of using the system for a store that is selling recreation goods and tourist equipment. The system allows to register incoming requests (calls) and at the same time to show prompts/scripts to the operator registering the request or call on the specified request topic. 
+Демо-версия показывает пример использования системы для оказания технической поддержки – позволяет регистрировать входящие запросы от пользователей в различных формах (письма, звонки, встречи, e-mail). В данном случае, в демо-версии показан пример использования системы для некого магазина, осуществляющего продажу товаров для отдыха и туристического снаряжения. Система позволяет одновременно с регистрацией входящих заявок (вызовов) показывать подсказки/сценарии оператору, регистрирующему заявку или вызов по выбранной теме обращения.
 
-<h1 align="center"> <img src="/iondv-crm-en.jpg" alt="IONDV. CRM" align="center"></h1>  
+<h1 align="center"> <img src="/crmru.jpg" alt="IONDV. CRM" align="center"></h1>  
 
-## Demo
+## Демо
 
-Demo access to view the system without registration: https://crm-ru.iondv.ru
+Демо доступ в систему для ознакомления, без регистрации: https://crm-ru.iondv.ru
 
-Login: **demo**, password: **ion-demo**.
+Логин **demo**, пароль **ion-demo**.
 
-Additional advantages:
-- Open source code for all system components – https://github.com/iondv/crm-ru;
-- Open software used for DBMS and server OS (running for linux and windows);
-- Any adaptation and modernization of the system is available, including data structures modernization without programming in a visual editor;
-- Launch your own version in a few minutes – see [How to get](#how-to-get)
+Дополнительные преимущества:
+- Открытый исходный код всех компонентов Системы – https://github.com/iondv/crm-ru;
+- Открытое программное обеспечение используемое для СУБД и серверных ОС (работет под linux и windows); 
+- Возможна любая адаптация и модернизация системы, в том числе структур данных без программирования в визуальном редакторе. 
+- Запуск собственной версии в течении нескольких минут - см. [Как получить](#как-получить).
 
-## How to get?
+## Как получить?
 
-### IONDV. Studio sandbox
-Check and build the application in the [IONDV. Studio](https://studio.iondv.com) sandbox.
-1. Download the archive file from GitHub
-2. Open it in the Studio
-3. Click the “play” button
-4. Get the link and open it
+### Песочница IONDV. Studio
+Проверить и собрать приложение в песочнице [IONDV. Studio](https://studio.iondv.com).
+1. Скачать архив с Github
+2. Загрузить скачанный файл в студию
+3. Нажать кнопку «собрать» (play)
+4. Получить ссылку и перейти по ссылке 
 
-Watch [How-To video](https://www.youtube.com/watch?v=s7q9_YXkeEo).   
+Ссылка на [видео](https://www.youtube.com/watch?v=s7q9_YXkeEo) на англ.  
 
-If necessary, make changes to the data structure and rebuild the application.
+При необходимости — внесите изменения в структуру данных и пересоберите приложение.
 
-The application can be saved and deployed locally in the other methods described below.
+Полученное приложение можно сохранить и развернуть локально другими способами, приведенными ниже.
 
 ### Git
-
-Quick start using the IONDV repository.  CRM-en on GitHub – detailed instruction.
-1. Install the system environment and global dependencies.
-2. Clone the core, module, and application.
-3. Build and deploy the app.
-4. Launch the application.
-
-Or install and run in a single line with Linux using the iondv-app installer (locally required node.js, MongoDB and Git):
+Быстрый старт с использованием репозитория IONDV. CRM-ru на GitHub.
+1. Установите системное окружение и глобальные зависимости. 
+2. Клонируйте ядро, модуль и приложение. 
+3. Соберите и разверните приложение. 
+4. Запустите. 
+Или установка и запуск в одну строку под Linux с использованием установщика iondv-app (требуется локально node.js, MongoDB и Git):
 ```
 curl -L -s https://github.com/iondv/iondv-app/archive/master.zip > iondv-app.zip &&\
   unzip -p iondv-app.zip iondv-app-master/iondv-app > iondv-app &&\
-  bash iondv-app -q -i -m localhost:27017 crm-en
+  bash iondv-app -q -i -m localhost:27017 crm-ru
   ```
-
-Where instead of `localhost:27017` specify MongoDb adress. After the launch open the link 'http://localhost:8888', back-office account login: **demo**, password: **ion-demo**. 
+Где вместо `localhost:27017` нужно указать адрес MongoDb. После запуска открыть ссылку 'http://localhost:8888', учетная запись бек офиса **demo**, пароль **ion-demo**.
 
 ### Docker
-Launching an application using a docker container.
+Запуск приложения с использованием докер контейнера.
+1. Запустите СУБД mongodb: `docker run --name mongodb -v mongodb_data:/data/db -p 27017:27017 -d mongo` 
+2. Запустите IONDV. CRM-ru `docker run -d -p 80:8888 --link mongodb iondv/crm-ru`. 
+3. Откройте ссылку `http://localhost` в браузере через минуту (требуется время для инициализации данных). Для бек офиса логин: **demo**, пароль: **ion-demo** 
 
-1. Launch the mongodb DBMS: `docker run --name mongodb -v mongodb_data:/data/db -p 27017:27017 -d mongo` 
-2. Launch the IONDV. CRM-en `docker run -d -p 80:8888 --link mongodb iondv/crm-en`. 
-3. Open the link `http://localhost` in the browser in a minute (it takes time to initialize data). For the back-office the login is: **demo**, password: **ion-demo** 
-
-## Links
-For more information, see the following resources:
-- [IONDV. Framework](https://iondv.com/portal/index) 
-- [Facebook](https://www.facebook.com/iondv/) 
+## Ссылки
+Для дополнительной информации смотрите следующие ресурсы:
+- [IONDV. Framework](https://iondv.com/portal/index)
+- [Facebook](https://www.facebook.com/iondv/)

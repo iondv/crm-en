@@ -6,7 +6,7 @@
   "semantic": "inter| |date",
   "name": "mettingEvent",
   "version": "",
-  "caption": "Meeting",
+  "caption": "Встреча",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "inter",
-      "caption": "Topic of the meeting",
+      "caption": "Тема встречи",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "date",
-      "caption": "Date",
+      "caption": "Дата",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "person",
-      "caption": "Person",
+      "caption": "Персона",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "worker",
-      "caption": "Employee",
+      "caption": "Сотрудник",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "organiz",
-      "caption": "Organization",
+      "caption": "Организация",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "event",
-      "caption": "Event",
+      "caption": "Событие",
       "type": 13,
       "size": null,
       "decimals": 0,

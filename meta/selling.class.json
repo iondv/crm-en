@@ -6,7 +6,7 @@
   "semantic": "organiz",
   "name": "selling",
   "version": "",
-  "caption": "Selling",
+  "caption": "Продажа",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 32,
       "name": "product",
-      "caption": "Sales of products",
+      "caption": "Продажи продуктов",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 40,
       "name": "event",
-      "caption": "Sale events",
+      "caption": "События по продаже",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 30,
       "name": "organiz",
-      "caption": "Account",
+      "caption": "Аккаунт",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 100,
       "name": "comment",
-      "caption": "Comment",
+      "caption": "Комментарий",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 110,
       "name": "files",
-      "caption": "Files",
+      "caption": "Файлы",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 50,
       "name": "market",
-      "caption": "Marketing",
+      "caption": "Маркетинг",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 31,
       "name": "persons",
-      "caption": "Key persons",
+      "caption": "Ключевые персоны",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 30,
       "name": "dateCreate",
-      "caption": "Date and time of creation",
+      "caption": "Дата и время создания",
       "type": 9,
       "size": null,
       "decimals": 0,

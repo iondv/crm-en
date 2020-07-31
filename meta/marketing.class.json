@@ -6,7 +6,7 @@
   "semantic": "typeEvent| : |target",
   "name": "marketing",
   "version": "",
-  "caption": "Marketing",
+  "caption": "Маркетинг",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 30,
       "name": "typeEvent",
-      "caption": "Type",
+      "caption": "Тип",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 61,
       "name": "participants",
-      "caption": "Events",
+      "caption": "События",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 91,
       "name": "files",
-      "caption": "Files",
+      "caption": "Файлы",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 60,
       "name": "product",
-      "caption": "Product",
+      "caption": "Продукт",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 80,
       "name": "selling",
-      "caption": "Selling",
+      "caption": "Продажа",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 81,
       "name": "target",
-      "caption": "Target",
+      "caption": "Цели",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 82,
       "name": "auditor",
-      "caption": "Audience",
+      "caption": "Аудитория",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 83,
       "name": "comment",
-      "caption": "Comment",
+      "caption": "Комментарий",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -279,7 +279,7 @@
     {
       "orderNumber": 31,
       "name": "organization",
-      "caption": "Organizations involved",
+      "caption": "Участвующие организации",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -308,7 +308,7 @@
     {
       "orderNumber": 101,
       "name": "contractor",
-      "caption": "Contractor",
+      "caption": "Подрядчик",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -337,7 +337,7 @@
     {
       "orderNumber": 110,
       "name": "person",
-      "caption": "Participating persons",
+      "caption": "Учавствующие персоны",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -365,7 +365,7 @@
     {
       "orderNumber": 30,
       "name": "dateCreate",
-      "caption": "Date and time of creation",
+      "caption": "Дата и время создания",
       "type": 9,
       "size": null,
       "decimals": 0,

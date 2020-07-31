@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Region",
+      "caption": "Регион",
       "type": 2,
       "property": "region",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Name of organization",
+      "caption": "Наименование организации",
       "type": 1,
       "property": "organName",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Marketing",
+      "caption": "Маркетинг",
       "type": 3,
       "property": "eventMarket",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Sales",
+      "caption": "Продажи",
       "type": 3,
       "property": "eventSend",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Persons of organization",
+      "caption": "Персоны в организации",
       "type": 3,
       "property": "personOrgans",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Additional organization",
+      "caption": "Дополнительная информация",
       "type": 7,
       "property": "extContact",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Phone",
+      "caption": "Телефон",
       "type": 1,
       "property": "phone",
       "size": 2,
@@ -191,7 +191,7 @@
     },
     {
       "sorted": true,
-      "caption": "E-mail",
+      "caption": "Электронная почта",
       "type": 1,
       "property": "email",
       "size": 2,
@@ -218,7 +218,7 @@
     },
     {
       "sorted": true,
-      "caption": "Address",
+      "caption": "Адрес",
       "type": 1,
       "property": "address",
       "size": 2,
@@ -253,7 +253,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -263,7 +263,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -273,7 +273,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

@@ -6,7 +6,7 @@
   "semantic": "role| : |person",
   "name": "worker",
   "version": "",
-  "caption": "Employee",
+  "caption": "Сотрудник",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "role",
-      "caption": "Role",
+      "caption": "Роль",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "person",
-      "caption": "Person",
+      "caption": "Персона",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "organiz",
-      "caption": "Organization",
+      "caption": "Организация",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "dateStart",
-      "caption": "Start date of work in organization",
+      "caption": "Дата начала работы в организации",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "dateEnd",
-      "caption": "End date of work in organization",
+      "caption": "Дата окончания работы в организации",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "phone",
-      "caption": "Office phone number",
+      "caption": "Рабочий телефон",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 80,
       "name": "mail",
-      "caption": "Office e-mail",
+      "caption": "Рабочая эл. почта",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 80,
       "name": "user",
-      "caption": "User",
+      "caption": "Пользователь",
       "type": 0,
       "size": null,
       "decimals": 0,

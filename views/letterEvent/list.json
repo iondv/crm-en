@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Type of letter",
+      "caption": "Вид письма",
       "type": 1,
       "property": "type",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Address",
+      "caption": "Адрес",
       "type": 1,
       "property": "adress",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Content of letter",
+      "caption": "Содержание письма",
       "type": 7,
       "property": "text",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Delivery status",
+      "caption": "Статус доставки",
       "type": 1,
       "property": "status",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Attachments",
+      "caption": "Вложения",
       "type": 110,
       "property": "affix",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Event",
+      "caption": "Событие",
       "type": 2,
       "property": "event",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Date of event",
+      "caption": "Дата события",
       "type": 6,
       "property": "data",
       "size": 2,
@@ -199,7 +199,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -219,7 +219,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

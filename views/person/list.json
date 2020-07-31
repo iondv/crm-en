@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Region",
+      "caption": "Регион",
       "type": 2,
       "property": "region",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Surname",
+      "caption": "Фамилия",
       "type": 1,
       "property": "surname",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Name",
+      "caption": "Имя",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Patronymic",
+      "caption": "Отчество",
       "type": 1,
       "property": "patronymic",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Organization of the person",
+      "caption": "Организация персоны",
       "type": 2,
       "property": "organPerson",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Address",
+      "caption": "Адрес",
       "type": 1,
       "property": "address",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "E-mail",
+      "caption": "Электронная почта",
       "type": 1,
       "property": "email",
       "size": 2,
@@ -191,7 +191,7 @@
     },
     {
       "sorted": true,
-      "caption": "Phone",
+      "caption": "Телефон",
       "type": 1,
       "property": "phone",
       "size": 2,
@@ -218,7 +218,7 @@
     },
     {
       "sorted": true,
-      "caption": "Additional information",
+      "caption": "Дополнительная информация",
       "type": 7,
       "property": "extContact",
       "size": 2,
@@ -245,7 +245,7 @@
     },
     {
       "sorted": true,
-      "caption": "Sales",
+      "caption": "Продажи",
       "type": 3,
       "property": "eventSend",
       "size": 2,
@@ -272,7 +272,7 @@
     },
     {
       "sorted": true,
-      "caption": "Position",
+      "caption": "Должность",
       "type": 1,
       "property": "position",
       "size": 2,
@@ -299,7 +299,7 @@
     },
     {
       "sorted": true,
-      "caption": "Requests",
+      "caption": "Заявки",
       "type": 3,
       "property": "task",
       "size": 2,
@@ -326,7 +326,7 @@
     },
     {
       "sorted": true,
-      "caption": "Events",
+      "caption": "События",
       "type": 3,
       "property": "event",
       "size": 2,
@@ -361,7 +361,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -371,7 +371,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -381,7 +381,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

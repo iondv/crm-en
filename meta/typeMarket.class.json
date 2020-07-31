@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "typeMarket",
   "version": "",
-  "caption": "Type of marketing",
+  "caption": "Тип маркетинга",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Name",
+      "caption": "Наименование",
       "type": 0,
       "size": null,
       "decimals": 0,

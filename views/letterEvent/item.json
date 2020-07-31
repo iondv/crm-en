@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Date of event",
+          "caption": "Дата события",
           "type": 120,
           "property": "data",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Type of letter",
+          "caption": "Вид письма",
           "type": 1,
           "property": "type",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Address",
+          "caption": "Адрес",
           "type": 1,
           "property": "adress",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Content of letter",
+          "caption": "Содержание письма",
           "type": 7,
           "property": "text",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Delivery status",
+          "caption": "Статус доставки",
           "type": 1,
           "property": "status",
           "size": 2,
@@ -134,7 +134,7 @@
           "selSorting": []
         },
         {
-          "caption": "Attachments",
+          "caption": "Вложения",
           "type": 110,
           "property": "affix",
           "size": 2,
@@ -160,7 +160,7 @@
           "selSorting": []
         },
         {
-          "caption": "Event",
+          "caption": "Событие",
           "type": 5,
           "property": "event",
           "size": 2,
@@ -173,7 +173,7 @@
           "commands": [
             {
               "id": "CREATE",
-              "caption": "Create",
+              "caption": "Создать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": false,
@@ -183,7 +183,7 @@
             },
             {
               "id": "EDIT",
-              "caption": "Edit",
+              "caption": "Править",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -193,7 +193,7 @@
             },
             {
               "id": "REMOVE",
-              "caption": "Remove",
+              "caption": "Убрать",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -230,7 +230,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Save",
+      "caption": "Сохранить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -240,7 +240,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Save and close",
+      "caption": "Сохранить и закрыть",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -250,7 +250,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

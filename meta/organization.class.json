@@ -6,7 +6,7 @@
   "semantic": "region| |organName",
   "name": "organization",
   "version": "",
-  "caption": "Organization",
+  "caption": "Организация",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "ID",
+      "caption": "Идентификатор",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 15,
       "name": "region",
-      "caption": "Region",
+      "caption": "Регион",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "organName",
-      "caption": "Organization name",
+      "caption": "Наименование организации",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 50,
       "name": "address",
-      "caption": "Address",
+      "caption": "Адрес",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 60,
       "name": "email",
-      "caption": "E-mail",
+      "caption": "Электронная почта",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 70,
       "name": "phone",
-      "caption": "Phone",
+      "caption": "Телефон",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 80,
       "name": "extContact",
-      "caption": "Additional information",
+      "caption": "Дополнительная информация",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 40,
       "name": "personOrgans",
-      "caption": "Persons in the organization",
+      "caption": "Персоны в организации",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 90,
       "name": "eventSend",
-      "caption": "Sales",
+      "caption": "Продажи",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -279,7 +279,7 @@
     {
       "orderNumber": 100,
       "name": "eventMarket",
-      "caption": "Marketing",
+      "caption": "Маркетинг",
       "type": 14,
       "size": null,
       "decimals": 0,

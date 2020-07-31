@@ -1,6 +1,6 @@
 {
   "id": "SAVEANDCLOSE",
-  "caption": "Save and close",
+  "caption": "Сохранить и закрыть",
   "visibilityCondition": null,
   "enableCondition": null,
   "needSelectedItem": false,

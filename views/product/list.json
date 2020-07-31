@@ -1,7 +1,7 @@
 {
   "columns": [
     {
-      "caption": "Status",
+      "caption": "Статус",
       "type": 1,
       "property": "state",
       "size": 2,
@@ -28,7 +28,7 @@
     },
     {
       "sorted": true,
-      "caption": "Files",
+      "caption": "Файлы",
       "type": 11,
       "property": "file",
       "size": 2,
@@ -55,7 +55,7 @@
     },
     {
       "sorted": true,
-      "caption": "Description",
+      "caption": "Описание",
       "type": 7,
       "property": "description",
       "size": 2,
@@ -82,7 +82,7 @@
     },
     {
       "sorted": true,
-      "caption": "Name of product",
+      "caption": "Название продукта",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -117,7 +117,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -127,7 +127,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -137,7 +137,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

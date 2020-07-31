@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Sales of products",
+      "caption": "Продажи продуктов",
       "type": 3,
       "property": "product",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Sale event",
+      "caption": "События по продаже",
       "type": 3,
       "property": "event",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Account",
+      "caption": "Аккаунт",
       "type": 2,
       "property": "organiz",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Comment",
+      "caption": "Комментарий",
       "type": 7,
       "property": "comment",
       "size": 2,
@@ -110,7 +110,7 @@
     },
     {
       "sorted": true,
-      "caption": "Files",
+      "caption": "Файлы",
       "type": 110,
       "property": "files",
       "size": 2,
@@ -137,7 +137,7 @@
     },
     {
       "sorted": true,
-      "caption": "Marketing",
+      "caption": "Маркетинг",
       "type": 2,
       "property": "market",
       "size": 2,
@@ -164,7 +164,7 @@
     },
     {
       "sorted": true,
-      "caption": "Key persons",
+      "caption": "Ключевые персоны",
       "type": 3,
       "property": "persons",
       "size": 2,
@@ -199,7 +199,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -209,7 +209,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -219,7 +219,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

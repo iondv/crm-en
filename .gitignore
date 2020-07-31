@@ -3,7 +3,7 @@ patches/
 .vscode/
 /test/import/*.xlsx
 /test/import/*.xls
-
+/static/vendor
 
 ### Eclipse template
 *.pydevproject
@@ -73,6 +73,6 @@ build/Release
 
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
-node_modules
+vendor
 
 # Created by .ignore support plugin (hsz.mobi)

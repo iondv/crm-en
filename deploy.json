@@ -1,9 +1,10 @@
 {
   "namespace": "crm-ru",
   "globals": {
+    "pageTitle": "ИС CRM",
     "moduleTitles": {
-      "registry": "Tech support",
-      "report": "Reports"
+      "registry": "Тех. поддержка",
+      "report": "Отчеты"
     },
     "plugins": {
       "actualAclProvider":{
@@ -84,7 +85,41 @@
             },
             "selling@crm-ru": {
               "list": [
+                "product.name.name",
+                "organiz.region.name",
+                "market.typeEvent.name"
+              ]
+            },
+            "marketing@crm-ru": {
+              "list": [
+                "organization.region.name",
+                "selling.organiz.region.name",
                 "product.name.name"
+              ],
+              "item": [
+                "selling.organiz.region.name"
+              ]
+            },
+            "worker@crm-ru": {
+              "list": [
+                "organiz.region.name"
+              ]
+            },
+            "event@crm-ru": {
+              "list": [
+                "worker.role.name",
+                "worker.person"
+              ]
+            },
+            "person@crm-ru": {
+              "list": [
+                "organPerson.region.name",
+                "eventSend.organiz"
+              ]
+            },
+            "organization@crm-ru": {
+              "list": [
+                "eventMarket.typeEvent.name"
               ]
             }
           }
@@ -94,7 +129,7 @@
         ],
         "statics": {
           "crm-static": "applications/crm-ru/templates/registry/static",
-          "app-vendor": "applications/crm-ru/themes/registry/node_modules",
+          "app-vendor": "applications/crm-ru/themes/registry/vendor",
           "common-static": "applications/crm-ru/templates/static"
         },  
         "createByCopy": [
@@ -118,6 +153,13 @@
                 }
               },
               "maxEagerDepth": 4
+            }
+          }
+        },
+        "dashboard": {
+          "crm-ru": {
+            "modules": {
+              "dashboard": {}
             }
           }
         }
@@ -161,7 +203,7 @@
           "crm-ru": "Техническая поддержка"
         },
         "root": {
-          "sakh-pm": "applications/crm-ru/dashboard"
+          "crm-ru": "applications/crm-ru/dashboard"
         },
         "layouts": {
           "task": {

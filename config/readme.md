@@ -1,9 +1,9 @@
-# Purpose
-The folder stores configuration settings that need to be applied to the core.
-Only the parameters (top-level properties) that are set in the meta configuration files are changed, and only the files that are located in this folder are changed.
+# Назначение
+В папке хранятся конфигурационные настройки, которые нужно применить к ядру.
+Изменяются только те параметры (свойства верхнего уровня), которые заданы в конфигурационных файлах меты, причем изменяются те файлы, которые находятся в этой папке.
 
-Example
-file `\meta\svyaz\config\config\config.json`
+Пример
+файл `\meta\svyaz\config\config\config.json`
 ``` JSON
 {
     "content":{
@@ -13,7 +13,7 @@ file `\meta\svyaz\config\config\config.json`
 }
 ```
 
-the following file will be changed `\app\config\config.json`
+будет изменен файл `\app\config\config.json`
 ```{
     "runmode": "production",
     "port": [8888, 8889],

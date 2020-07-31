@@ -3,16 +3,13 @@
   "orderNumber": 5,
   "type": 1,
   "title": "",
-  "caption": "Events",
+  "caption": "События",
   "classname": "event",
   "container": null,
   "collection": null,
   "url": null,
   "hint": null,
   "conditions": [],
-  "allowedSubclasses": [
-    "event"
-  ],
   "sorting": [],
   "pathChains": [],
   "metaVersion": "2.0.61.15690"

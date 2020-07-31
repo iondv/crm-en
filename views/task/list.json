@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Date and time of creation",
+      "caption": "Дата и время создания",
       "type": 6,
       "property": "dateCreate",
       "size": 2,
@@ -28,9 +28,9 @@
     },
     {
       "sorted": true,
-      "caption": "Created by employee",
+      "caption": "Создана сотрудником",
       "type": 1,
-      "property": "creatorLogin",
+      "property": "oworker",
       "size": 2,
       "maskName": null,
       "mask": null,
@@ -54,7 +54,7 @@
     },
     {
       "sorted": true,
-      "caption": "Subject of request",
+      "caption": "Тема заявки",
       "type": 1,
       "property": "subjectTask",
       "size": 2,
@@ -80,7 +80,7 @@
       "selSorting": []
     },
     {
-      "caption": "No match found",
+      "caption": "Не найдено соответствие",
       "type": 4,
       "property": "notFoundScenario",
       "size": 2,
@@ -106,7 +106,7 @@
       "selSorting": []
     },
     {
-      "caption": "Comment",
+      "caption": "Комментарий",
       "type": 7,
       "property": "comment",
       "size": 2,
@@ -141,7 +141,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -151,7 +151,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -161,7 +161,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

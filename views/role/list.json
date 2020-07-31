@@ -2,7 +2,34 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Role",
+      "caption": "Код",
+      "type": 1,
+      "property": "id",
+      "size": 2,
+      "maskName": null,
+      "mask": null,
+      "mode": 1,
+      "fields": [],
+      "columns": [],
+      "actions": null,
+      "commands": null,
+      "orderNumber": 10,
+      "required": true,
+      "visibility": null,
+      "enablement": null,
+      "obligation": null,
+      "readonly": false,
+      "selectionPaginated": true,
+      "validators": null,
+      "hint": "",
+      "historyDisplayMode": 0,
+      "tags": null,
+      "selConditions": [],
+      "selSorting": []
+    },
+    {
+      "sorted": true,
+      "caption": "Роль",
       "type": 1,
       "property": "name",
       "size": 2,
@@ -37,7 +64,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Create",
+      "caption": "Создать",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -47,7 +74,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Edit",
+      "caption": "Изменить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -57,7 +84,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Delete",
+      "caption": "Удалить",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
