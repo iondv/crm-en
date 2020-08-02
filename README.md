@@ -16,7 +16,7 @@ Login: **demo**, password: **ion-demo**.
 Additional advantages:
 - Open source code for all system components – https://github.com/iondv/crm-en;
 - Open software used for DBMS and server OS (running for linux and windows);
-- Any adaptation and modernization of the system is available, including data structures modernization without programming in a visual editor;
+- Any adaptation and modernization of the system is available, including data structures modernization without programming in a visual editor. You can try it by downloading the zip archive of the repository in the editor at https://studio.iondv.com. The UML schema is deploy into a working application in 80 seconds, see the [video]( https://youtu.be/s7q9_YXkeEo)
 - Launch your own version in a few minutes – see [How to get](#how-to-get)
 
 ## How to get?
@@ -37,7 +37,7 @@ The application can be saved and deployed locally in the other methods described
 ### Git
 
 Quick start using the IONDV repository.  CRM-en on GitHub – detailed instruction.
-1. Install the system environment and global dependencies.
+1. Install the system environment and global dependencies according to the instructions from https://iondv.readthedocs.io/en/latest/.
 2. Clone the core, module, and application.
 3. Build and deploy the app.
 4. Launch the application.
@@ -46,7 +46,7 @@ Or install and run in a single line with Linux using the iondv-app installer (lo
 ```
 curl -L -s https://github.com/iondv/iondv-app/archive/master.zip > iondv-app.zip &&\
   unzip -p iondv-app.zip iondv-app-master/iondv-app > iondv-app &&\
-  bash iondv-app -q -i -m localhost:27017 crm-en
+  bash iondv-app -t git -q -i -m localhost:27017 crm-en
   ```
 
 Where instead of `localhost:27017` specify MongoDb adress. After the launch open the link 'http://localhost:8888', back-office account login: **demo**, password: **ion-demo**. 
