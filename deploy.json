@@ -68,7 +68,7 @@
         "inlineForm": true,
         "navigation": {
           "namespaces": {
-            "crm-en": "Тех. поддержка"
+            "crm-en": "Tech support"
           },
           "menus": {
             "left": [
@@ -200,14 +200,14 @@
     "dashboard": {
       "globals": {
         "namespaces": {
-          "crm-en": "Техническая поддержка"
+          "crm-en": "Tech support"
         },
         "root": {
           "sakh-pm": "applications/crm-en/dashboard"
         },
         "layouts": {
           "task": {
-            "title": "Обращения"
+            "title": "Requests"
           }
         }
       }
