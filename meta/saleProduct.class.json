@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "saleProduct",
   "version": "",
-  "caption": "Продажа продукта",
+  "caption": "Sale of product",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": 24,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "description",
-      "caption": "Коментарий",
+      "caption": "Comment",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "price",
-      "caption": "Цена",
+      "caption": "Price",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 30,
       "name": "quantity",
-      "caption": "Количество",
+      "caption": "Quantity",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 40,
       "name": "struct",
-      "caption": "Структура расчета цены",
+      "caption": "Pricing structure",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 50,
       "name": "doc",
-      "caption": "Документация",
+      "caption": "Documentation",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 15,
       "name": "name",
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 13,
       "size": null,
       "decimals": 0,

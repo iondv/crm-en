@@ -3,7 +3,7 @@
   "orderNumber": 50,
   "type": 1,
   "title": "",
-  "caption": "Сотрудники",
+  "caption": "Employees",
   "classname": "worker",
   "container": null,
   "collection": "role",

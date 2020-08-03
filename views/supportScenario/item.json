@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Наименование классификации",
+          "caption": "Name of classification",
           "type": 1,
           "property": "name",
           "size": 2,
@@ -30,7 +30,7 @@
           "selSorting": []
         },
         {
-          "caption": "Предмет поддержки",
+          "caption": "Subject of support",
           "type": 5,
           "property": "support",
           "size": 2,
@@ -56,7 +56,7 @@
           "selSorting": []
         },
         {
-          "caption": "Классификация",
+          "caption": "Classification",
           "type": 5,
           "property": "taskClassification",
           "size": 2,
@@ -82,7 +82,7 @@
           "selSorting": []
         },
         {
-          "caption": "Окончание классификации",
+          "caption": "End of classification",
           "type": 4,
           "property": "endTaskClassification",
           "size": 2,
@@ -108,7 +108,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сценарий",
+          "caption": "Scenario",
           "type": 8,
           "property": "scenario",
           "size": 2,
@@ -139,7 +139,7 @@
           }
         },
         {
-          "caption": "Необходимо доработать сценарий",
+          "caption": "Scenario needs to be refined",
           "type": 4,
           "property": "needRefactoringScenario",
           "size": 2,
@@ -165,7 +165,7 @@
           "selSorting": []
         },
         {
-          "caption": "Доработка сценария",
+          "caption": "Scenario refinement",
           "type": 1,
           "property": "todoScenario",
           "size": 2,
@@ -191,7 +191,7 @@
           "selSorting": []
         },
         {
-          "caption": "Дата и время создания",
+          "caption": "Date and time of creation",
           "type": 6,
           "property": "dateCreate",
           "size": 2,
@@ -216,7 +216,7 @@
           "tags": null
         },
         {
-          "caption": "Дата и время изменения",
+          "caption": "Date and time of change",
           "type": 6,
           "property": "dateСhange",
           "size": 2,
@@ -254,7 +254,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -264,7 +264,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -274,7 +274,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

@@ -6,8 +6,8 @@
   "semantic": "subjectTask| |typeTask",
   "name": "task",
   "version": "",
-  "caption": "Обращения",
-  "ancestor": "event",
+  "caption": "Requests",
+  "ancestor": "eventBasic",
   "container": null,
   "creationTracker": "dateCreate",
   "changeTracker": "",
@@ -18,125 +18,9 @@
   "compositeIndexes": null,
   "properties": [
     {
-      "orderNumber": 30,
-      "name": "dateCreate",
-      "caption": "Дата и время создания",
-      "type": 9,
-      "size": null,
-      "decimals": 0,
-      "allowedFileTypes": null,
-      "maxFileCount": 0,
-      "nullable": true,
-      "readonly": false,
-      "indexed": false,
-      "unique": false,
-      "autoassigned": false,
-      "hint": null,
-      "defaultValue": null,
-      "refClass": "",
-      "itemsClass": "",
-      "backRef": "",
-      "backColl": "",
-      "binding": "",
-      "semantic": null,
-      "selConditions": [],
-      "selSorting": [],
-      "selectionProvider": null,
-      "indexSearch": false,
-      "eagerLoading": false,
-      "formula": null
-    },
-    {
-      "orderNumber": 32,
-      "name": "creatorLogin",
-      "caption": "Создана сотрудником",
-      "type": 18,
-      "size": null,
-      "decimals": 0,
-      "allowedFileTypes": null,
-      "maxFileCount": 0,
-      "nullable": false,
-      "readonly": false,
-      "indexed": false,
-      "unique": false,
-      "autoassigned": false,
-      "hint": null,
-      "defaultValue": "$$uid",
-      "refClass": "",
-      "itemsClass": "",
-      "backRef": "",
-      "backColl": "",
-      "binding": "",
-      "semantic": null,
-      "selConditions": [],
-      "selSorting": [],
-      "selectionProvider": null,
-      "indexSearch": false,
-      "eagerLoading": false,
-      "formula": null
-    },
-    {
-      "orderNumber": 20,
-      "name": "id",
-      "caption": "Идентификатор",
-      "type": 12,
-      "size": 24,
-      "decimals": 0,
-      "allowedFileTypes": null,
-      "maxFileCount": 0,
-      "nullable": false,
-      "readonly": true,
-      "indexed": false,
-      "unique": true,
-      "autoassigned": true,
-      "hint": null,
-      "defaultValue": null,
-      "refClass": "",
-      "itemsClass": null,
-      "backRef": "",
-      "backColl": "",
-      "binding": "",
-      "semantic": null,
-      "selConditions": [],
-      "selSorting": [],
-      "selectionProvider": null,
-      "indexSearch": false,
-      "eagerLoading": false,
-      "formula": null
-    },
-    {
-      "orderNumber": 30,
-      "name": "oworker",
-      "caption": "Ответственный сотрудник",
-      "type": 13,
-      "size": null,
-      "decimals": 0,
-      "allowedFileTypes": null,
-      "maxFileCount": 0,
-      "nullable": true,
-      "readonly": false,
-      "indexed": false,
-      "unique": false,
-      "autoassigned": false,
-      "hint": null,
-      "defaultValue": null,
-      "refClass": "worker",
-      "itemsClass": null,
-      "backRef": "",
-      "backColl": "",
-      "binding": "",
-      "semantic": null,
-      "selConditions": [],
-      "selSorting": [],
-      "selectionProvider": null,
-      "indexSearch": false,
-      "eagerLoading": false,
-      "formula": null
-    },
-    {
       "orderNumber": 50,
       "name": "priority",
-      "caption": "Приоритет",
+      "caption": "Priority",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -162,19 +46,19 @@
         "list": [
           {
             "key": "zero",
-            "value": "Нулевой"
+            "value": "Zero"
           },
           {
             "key": "low",
-            "value": "Низкий"
+            "value": "Low"
           },
           {
             "key": "normal",
-            "value": "Обычный"
+            "value": "Normal"
           },
           {
             "key": "critical",
-            "value": "Критичный"
+            "value": "Critical"
           }
         ],
         "matrix": [],
@@ -188,7 +72,7 @@
     {
       "orderNumber": 60,
       "name": "typeTask",
-      "caption": "Тип заявки",
+      "caption": "Type of request",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -214,15 +98,15 @@
         "list": [
           {
             "key": "question",
-            "value": "Консультация"
+            "value": "Consultation"
           },
           {
             "key": "problem",
-            "value": "Инцидент"
+            "value": "Incident"
           },
           {
             "key": "offer",
-            "value": "Предложение"
+            "value": "Offer"
           }
         ],
         "matrix": [],
@@ -236,7 +120,7 @@
     {
       "orderNumber": 62,
       "name": "linkTask",
-      "caption": "Ссылка на задачу",
+      "caption": "Task link",
       "type": 3,
       "size": null,
       "decimals": 0,
@@ -265,7 +149,7 @@
     {
       "orderNumber": 82,
       "name": "subjectTask",
-      "caption": "Тема заявки",
+      "caption": "Subject of request",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -294,7 +178,7 @@
     {
       "orderNumber": 90,
       "name": "comment",
-      "caption": "Комментарий",
+      "caption": "Comment",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -323,7 +207,7 @@
     {
       "orderNumber": 100,
       "name": "taskUser",
-      "caption": "Все заявки пользователя",
+      "caption": "All user requests",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -361,7 +245,7 @@
     {
       "orderNumber": 110,
       "name": "role",
-      "caption": "Эксплуатационная роль",
+      "caption": "Operational role",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -390,7 +274,7 @@
     {
       "orderNumber": 120,
       "name": "user",
-      "caption": "Пользователь",
+      "caption": "User",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -419,7 +303,7 @@
     {
       "orderNumber": 40,
       "name": "sourseTask",
-      "caption": "Источник заявки",
+      "caption": "Source of request",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -445,7 +329,7 @@
         "list": [
           {
             "key": "phone",
-            "value": "Телефон"
+            "value": "Phone"
           },
           {
             "key": "email",
@@ -463,7 +347,7 @@
     {
       "orderNumber": 130,
       "name": "file",
-      "caption": "Прилагаемые файлы",
+      "caption": "Attached files",
       "type": 110,
       "size": null,
       "decimals": 0,
@@ -492,7 +376,7 @@
     {
       "orderNumber": 25,
       "name": "ouid",
-      "caption": "Идентификатор заявки",
+      "caption": "Request ID",
       "type": 6,
       "size": null,
       "decimals": 0,
@@ -521,7 +405,7 @@
     {
       "orderNumber": 83,
       "name": "consult",
-      "caption": "Потребовалась консультация",
+      "caption": "Consultation required",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -550,7 +434,7 @@
     {
       "orderNumber": 1000,
       "name": "supportScenario0",
-      "caption": "Сценарий поддержки 0",
+      "caption": "Support scenario 0",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -600,7 +484,7 @@
     {
       "orderNumber": 1001,
       "name": "supportScenario1",
-      "caption": "Сценарий поддержки 1",
+      "caption": "Support scenario 1",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -644,7 +528,7 @@
     {
       "orderNumber": 1002,
       "name": "supportScenario2",
-      "caption": "Сценарий поддержки 2",
+      "caption": "Support scenario 2",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -688,7 +572,7 @@
     {
       "orderNumber": 1003,
       "name": "supportScenario3",
-      "caption": "Сценарий поддержки 3",
+      "caption": "Support scenario 3",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -732,7 +616,7 @@
     {
       "orderNumber": 1004,
       "name": "supportScenario4",
-      "caption": "Сценарий поддержки 4",
+      "caption": "Support scenario 4",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -776,7 +660,7 @@
     {
       "orderNumber": 1005,
       "name": "supportScenario5",
-      "caption": "Сценарий поддержки 5",
+      "caption": "Support scenario 5",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -820,7 +704,7 @@
     {
       "orderNumber": 1006,
       "name": "supportScenario6",
-      "caption": "Сценарий поддержки 6",
+      "caption": "Support scenario 6",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -864,7 +748,7 @@
     {
       "orderNumber": 1007,
       "name": "supportScenario7",
-      "caption": "Сценарий поддержки 7",
+      "caption": "Support scenario 7",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -908,7 +792,7 @@
     {
       "orderNumber": 1008,
       "name": "supportScenario8",
-      "caption": "Сценарий поддержки 8",
+      "caption": "Support scenario 8",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -952,7 +836,7 @@
     {
       "orderNumber": 1009,
       "name": "supportScenario9",
-      "caption": "Сценарий поддержки 9",
+      "caption": "Support scenario 9",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -996,7 +880,7 @@
     {
       "orderNumber": 27,
       "name": "support",
-      "caption": "Предмет поддержки",
+      "caption": "Subject of support",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -1025,7 +909,7 @@
     {
       "orderNumber": 900,
       "name": "supportScenarioComplite",
-      "caption": "Подтверждение выбора сценария поддержки ",
+      "caption": "Confirmation of support scenario selection",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -1054,7 +938,7 @@
     {
       "orderNumber": 910,
       "name": "notFoundScenario",
-      "caption": "Не найдено соответствие",
+      "caption": "No match found",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -1083,7 +967,7 @@
     {
       "orderNumber": 29,
       "name": "supportScenarioText",
-      "caption": "Сценарий поддержки",
+      "caption": "Support scenario",
       "type": 2,
       "size": null,
       "decimals": 0,

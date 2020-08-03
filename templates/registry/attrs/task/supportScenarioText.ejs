@@ -19,33 +19,7 @@ let params = {
       </div>
 
       <div class="default-content hidden">
-        <div class="mb10">Как проверить, по какой системе поступил звонок - ПРОВЕРЯЕМ ПО IVR И/ИЛИ на основе ответа заявителя</div>
-        <ul>
-          <li class="mb10">если звонят из рекламных агентств по разным вопросам, типа госзакупок, тендеров, продажи ЭЦП, то мы отвечаем, что вы позвонили в службу тех.поддержки портала Услуги 27, нам это неинтересно, ничего покупать не будем. </li>
-          <li class="mb10">
-            <strong>(4212) 78-80-74</strong> - классифицируем как обращение служащего по Системе межведомственного электронного взаимодействия Хабаровского края <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A1%D0%9C%D0%AD%D0%92" target="_blank">1.0 СИСТЕМА МЕЖВЕДОМСТВЕННОГО ЭЛЕКТРОННОГО ВЗАИМОДЕЙСТВИЯ</a>
-          </li>
-          <li class="mb10">
-            <strong>8-800-500-55-01</strong> - классифицируем как обращение граждан Хабаровского края </li>
-          <li>
-            <strong>(4212) 92-92-80</strong> - классифицируем как обращение служащего по Системе управления проектной деятельностью
-            <ul class="mt10">
-              <li>
-                <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3" target="_blank">2.0 ОБРАЩЕНИЯ ГРАЖДАН</a> </li>
-              <li>/1 - запись к врачу  <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3#21-%D0%97%D0%90%D0%9F%D0%98%D0%A1%D0%AC-%D0%9A-%D0%92%D0%A0%D0%90%D0%A7%D0%A3" target="_blank">2.1 ЗАПИСЬ К ВРАЧУ</a> </li>
-              <li>/2 - детские сады <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3#22-%D0%94%D0%9E%D0%A3" target="_blank">2.2 ДОУ</a>
-              </li>
-              <li>/3 - общие вопросы <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3#23-%D0%9A%D0%9E%D0%9D%D0%A1%D0%A3%D0%9B%D0%AC%D0%A2%D0%90%D0%A6%D0%98%D0%98-%D0%9F%D0%9E-%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%95-%D0%A1%D0%90%D0%99%D0%A2%D0%90-%D0%A3%D0%A1%D0%9B%D0%A3%D0%93%D0%98-27" target="_blank">2.3 КОНСУЛЬТАЦИИ ПО РАБОТЕ САЙТА УСЛУГИ 27</a>
-              </li>
-              <li>/4 - обращения через Телеграм <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3#24-%D0%9E%D0%91%D0%A0%D0%90%D0%A9%D0%95%D0%9D%D0%98%D0%AF-%D0%93%D0%A0%D0%90%D0%96%D0%94%D0%90%D0%9D-%D0%A7%D0%95%D0%A0%D0%95%D0%97-%D0%A2%D0%95%D0%9B%D0%95%D0%93%D0%A0%D0%90%D0%9C" target="_blank">2.4 ОБРАЩЕНИЯ ГРАЖДАН ЧЕРЕЗ ТЕЛЕГРАМ</a>
-              </li>
-              <li>/5 - обращения по Госэкспертизе <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A0%D0%9F%D0%93%D0%A3#25-%D0%9E%D0%91%D0%A0%D0%90%D0%A9%D0%95%D0%9D%D0%98%D0%AF-%D0%9F%D0%9E-%D0%93%D0%9E%D0%A1%D0%AD%D0%9A%D0%A1%D0%9F%D0%95%D0%A0%D0%A2%D0%98%D0%97%D0%95" target="_blank">2.5 ОБРАЩЕНИЯ ПО ГОСЭКСПЕРТИЗЕ</a>
-              </li>
-              <li>/6 - обращения  по Системе управления проектной деятельностью <a href="https://git.iondv.ru/KHV/technical-support/wikis/%D0%A1%D0%A3%D0%9F%D0%94" target="_blank">3.0 СИСТЕМА УПРАВЛЕНИЯ ПРОЕКТНОЙ ДЕЯТЕЛЬНОСТЬЮ</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <div class="mb10">To display the scenario, select the support item from the list above.</div>
       </div>
 
     </div>
@@ -80,7 +54,7 @@ let params = {
         $attr.addClass('loading');
         xhr = $.get(params.url + id).done(function (data) {
           data = data && data.scenario;
-          $content.html(data || '<span class="placeholder">- нет данных -</span>');
+          $content.html(data || '<span class="placeholder">- no data -</span>');
           $attr.removeClass('loading');
         });
       }

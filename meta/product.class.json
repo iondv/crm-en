@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "product",
   "version": "",
-  "caption": "Продукт",
+  "caption": "Product",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 21,
       "name": "file",
-      "caption": "Файлы",
+      "caption": "Files",
       "type": 5,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "description",
-      "caption": "Описание",
+      "caption": "Description",
       "type": 1,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 11,
       "name": "name",
-      "caption": "Название продукта",
+      "caption": "Product name",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 11,
       "name": "state",
-      "caption": "Статус",
+      "caption": "Status",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -160,15 +160,15 @@
         "list": [
           {
             "key": "create",
-            "value": "Создан"
+            "value": "Created"
           },
           {
             "key": "sell",
-            "value": "Ведутся мероприятия по продаже"
+            "value": "Sales activities in progress"
           },
           {
             "key": "close",
-            "value": "Продажа закрыта"
+            "value": "Sale is closed"
           }
         ],
         "matrix": [],

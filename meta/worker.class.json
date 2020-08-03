@@ -6,7 +6,7 @@
   "semantic": "role| : |person",
   "name": "worker",
   "version": "",
-  "caption": "Сотрудник",
+  "caption": "Employee",
   "ancestor": null,
   "container": null,
   "creationTracker": "",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "role",
-      "caption": "Роль",
+      "caption": "Role",
       "type": 14,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 30,
       "name": "person",
-      "caption": "Персона",
+      "caption": "Person",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "organiz",
-      "caption": "Организация",
+      "caption": "Organization",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "dateStart",
-      "caption": "Дата начала работы в организации",
+      "caption": "Start date of work in organization",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "dateEnd",
-      "caption": "Дата окончания работы в организации",
+      "caption": "End date of work in organization",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "phone",
-      "caption": "Рабочий телефон",
+      "caption": "Office phone number",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 80,
       "name": "mail",
-      "caption": "Рабочая эл. почта",
+      "caption": "Office e-mail",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 80,
       "name": "user",
-      "caption": "Пользователь",
+      "caption": "User",
       "type": 0,
       "size": null,
       "decimals": 0,

@@ -6,7 +6,7 @@
   "semantic": "name",
   "name": "supportScenario",
   "version": "",
-  "caption": "Сценарий поддержки",
+  "caption": "Support scenario",
   "ancestor": null,
   "container": null,
   "creationTracker": "dateCreate",
@@ -18,7 +18,7 @@
     {
       "orderNumber": 10,
       "name": "id",
-      "caption": "Идентификатор",
+      "caption": "ID",
       "type": 12,
       "size": null,
       "decimals": 0,
@@ -47,7 +47,7 @@
     {
       "orderNumber": 20,
       "name": "name",
-      "caption": "Наименование классификации",
+      "caption": "Name of classification",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -76,7 +76,7 @@
     {
       "orderNumber": 15,
       "name": "support",
-      "caption": "Предмет поддержки",
+      "caption": "Support subject",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -105,7 +105,7 @@
     {
       "orderNumber": 40,
       "name": "taskClassification",
-      "caption": "Классификация",
+      "caption": "Classification",
       "type": 13,
       "size": null,
       "decimals": 0,
@@ -134,7 +134,7 @@
     {
       "orderNumber": 50,
       "name": "endTaskClassification",
-      "caption": "Окончание классификации",
+      "caption": "End of classifictaion",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -163,7 +163,7 @@
     {
       "orderNumber": 60,
       "name": "scenario",
-      "caption": "Сценарий",
+      "caption": "Scenario",
       "type": 2,
       "size": null,
       "decimals": 0,
@@ -192,7 +192,7 @@
     {
       "orderNumber": 70,
       "name": "needRefactoringScenario",
-      "caption": "Необходимо доработать сценарий",
+      "caption": "Need to refine the script",
       "type": 10,
       "size": null,
       "decimals": 0,
@@ -221,7 +221,7 @@
     {
       "orderNumber": 80,
       "name": "todoScenario",
-      "caption": "Доработка сценария",
+      "caption": "Scenario refinement",
       "type": 0,
       "size": null,
       "decimals": 0,
@@ -250,7 +250,7 @@
     {
       "orderNumber": 30,
       "name": "dateCreate",
-      "caption": "Дата и время создания",
+      "caption": "Date and time of creation",
       "type": 9,
       "size": null,
       "decimals": 0,
@@ -279,7 +279,7 @@
     {
       "orderNumber": 30,
       "name": "dateСhange",
-      "caption": "Дата и время изменения",
+      "caption": "Date and time of change",
       "type": 9,
       "size": null,
       "decimals": 0,

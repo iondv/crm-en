@@ -2,7 +2,7 @@
   "columns": [
     {
       "sorted": true,
-      "caption": "Наименование",
+      "caption": "Name",
       "type": 2,
       "property": "name",
       "size": 2,
@@ -29,7 +29,7 @@
     },
     {
       "sorted": true,
-      "caption": "Цена",
+      "caption": "Price",
       "type": 1,
       "property": "price",
       "size": 2,
@@ -56,7 +56,7 @@
     },
     {
       "sorted": true,
-      "caption": "Структура расчета цены",
+      "caption": "Pricing structure",
       "type": 7,
       "property": "struct",
       "size": 2,
@@ -83,7 +83,7 @@
     },
     {
       "sorted": true,
-      "caption": "Документация",
+      "caption": "Documentation",
       "type": 110,
       "property": "doc",
       "size": 2,
@@ -118,7 +118,7 @@
   "commands": [
     {
       "id": "CREATE",
-      "caption": "Создать",
+      "caption": "Create",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,
@@ -128,7 +128,7 @@
     },
     {
       "id": "EDIT",
-      "caption": "Изменить",
+      "caption": "Edit",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": true,
@@ -138,7 +138,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": "",
       "enableCondition": "",
       "needSelectedItem": false,

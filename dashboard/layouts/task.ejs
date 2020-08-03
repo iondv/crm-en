@@ -1,18 +1,15 @@
 <%
-let task = dashboard.getWidget('crm-ru-task');
+let task = dashboard.getWidget('crm-en-task');
 let toggleParams = {};
 %>
-<link href="registry/app-vendor/highcharts/css/highcharts.css" rel="stylesheet">
-<script src="registry/app-static/js/highcharts.js"></script>
+<link href="dashboard/vendor/gridster-js/jquery.gridster.min.css" rel="stylesheet">
+<link href="dashboard/crm-en/layouts/gridster/gridster.css" rel="stylesheet">
+<link href="dashboard/crm-en/widgets/task/styles.css" rel="stylesheet">
 
-<link href="dashboard/node_modules/gridster-js/jquery.gridster.min.css" rel="stylesheet">
-<link href="dashboard/crm-ru/layouts/gridster/gridster.css" rel="stylesheet">
-<link href="dashboard/crm-ru/widgets/task/styles.css" rel="stylesheet">
-
-<script src="dashboard/node_modules/gridster-js/jquery.gridster.min.js"></script>
-<script src="dashboard/node_modules/gridster-js/jquery.gridster.with-extras.min.js"></script>
+<script src="dashboard/vendor/gridster-js/jquery.gridster.min.js"></script>
+<script src="dashboard/vendor/gridster-js/jquery.gridster.with-extras.min.js"></script>
 <script src="dashboard/js/gridster-helper.js"></script>
-<script src="dashboard/crm-ru/widgets/scripts.js"></script>
+<script src="dashboard/crm-en/widgets/scripts.js"></script>
 
 <script>
   window.ajaxQueue = $.when();
@@ -27,15 +24,15 @@ let toggleParams = {};
         widget: task,
         params: {
           id: 'usertask',
-          title: 'Все обращения пользователя',
+          title: 'All user requests',
         },
-        redirect: 'registry/crm-ru@task',
-        url: 'registry/api/task@crm-ru',
+        redirect: 'registry/crm-en@task',
+        url: 'registry/api/task@crm-en',
         urlData: {
-          node: 'crm-ru@task',
+          node: 'crm-en@task',
           filter: [
             {
-              "property": "creatorLogin",
+              "property": "oworker",
               "operation": 0,
               "value": [
                 "$$uid"
@@ -51,12 +48,12 @@ let toggleParams = {};
         widget: task,
         params: {
           id: 'sellroduct',
-          title: 'Продукты на продаже',
+          title: 'Products on sale',
         },
-        redirect: 'registry/crm-ru@product',
-        url: 'registry/api/product@crm-ru',
+        redirect: 'registry/crm-en@product',
+        url: 'registry/api/product@crm-en',
         urlData: {
-          node: 'crm-ru@product',
+          node: 'crm-en@product',
           filter: [
             {
               "property": "state",

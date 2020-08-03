@@ -1,10 +1,10 @@
 {
   "tabs": [
     {
-      "caption": "Данные",
+      "caption": "Data",
       "fullFields": [
         {
-          "caption": "Дата и время создания",
+          "caption": "Date and time of creation",
           "type": 6,
           "property": "dateCreate",
           "size": 2,
@@ -29,7 +29,7 @@
           "tags": null
         },
         {
-          "caption": "Создана сотрудником",
+          "caption": "Created by employee",
           "type": 1,
           "property": "creatorLogin",
           "size": 2,
@@ -54,7 +54,7 @@
           "tags": null
         },
         {
-          "caption": "Предмет поддержки",
+          "caption": "Subject of support",
           "type": 5,
           "property": "support",
           "size": 2,
@@ -67,7 +67,7 @@
           "commands": [
             {
               "id": "REMOVE",
-              "caption": "Убрать",
+              "caption": "Remove",
               "visibilityCondition": null,
               "enableCondition": null,
               "needSelectedItem": true,
@@ -88,10 +88,13 @@
           "historyDisplayMode": 0,
           "tags": null,
           "selConditions": [],
-          "selSorting": []
+          "selSorting": [],
+          "options": {
+            "template": "attrs/task/support"
+          }
         },
         {
-          "caption": "Выбор сценария поддержки",
+          "caption": "Request data",
           "type": 0,
           "property": "",
           "size": 2,
@@ -100,482 +103,7 @@
           "mode": null,
           "fields": [
             {
-              "caption": "0",
-              "type": 5,
-              "property": "supportScenario0",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 10,
-              "required": true,
-              "visibility": ".supportScenarioComplite !\u003d \u0027true\u0027 ||\r\n( !.supportScenario1 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": ".supportScenarioComplite !\u003d \u0027true\u0027 ||\r\n( !.supportScenario1 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "1",
-              "type": 5,
-              "property": "supportScenario1",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1001,
-              "required": false,
-              "visibility": "( !!.supportScenario0 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario1 \u0026\u0026\r\n!.supportScenario2 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "2",
-              "type": 5,
-              "property": "supportScenario2",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1002,
-              "required": false,
-              "visibility": "( !!.supportScenario1 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario2 \u0026\u0026\r\n!.supportScenario3 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "3",
-              "type": 5,
-              "property": "supportScenario3",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1003,
-              "required": false,
-              "visibility": "( !!.supportScenario2 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario3 \u0026\u0026\r\n!.supportScenario4 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "4",
-              "type": 5,
-              "property": "supportScenario4",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1004,
-              "required": false,
-              "visibility": "( !!.supportScenario3 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario4 \u0026\u0026\r\n!.supportScenario5 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "5",
-              "type": 5,
-              "property": "supportScenario5",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1005,
-              "required": false,
-              "visibility": "( !!.supportScenario4 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario5 \u0026\u0026\r\n!.supportScenario6 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "6",
-              "type": 5,
-              "property": "supportScenario6",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1006,
-              "required": false,
-              "visibility": "( !!.supportScenario5 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario6 \u0026\u0026\r\n!.supportScenario7 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "7",
-              "type": 5,
-              "property": "supportScenario7",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1007,
-              "required": false,
-              "visibility": "( !!.supportScenario6 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario7 \u0026\u0026\r\n!.supportScenario8 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "8",
-              "type": 5,
-              "property": "supportScenario8",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1008,
-              "required": false,
-              "visibility": "( !!.supportScenario7 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario8 \u0026\u0026\r\n!.supportScenario9 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "9",
-              "type": 5,
-              "property": "supportScenario9",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": [
-                {
-                  "id": "REMOVE",
-                  "caption": "Убрать",
-                  "visibilityCondition": null,
-                  "enableCondition": null,
-                  "needSelectedItem": true,
-                  "signBefore": false,
-                  "signAfter": false,
-                  "isBulk": false
-                }
-              ],
-              "orderNumber": 1009,
-              "required": false,
-              "visibility": "( !!.supportScenario8 \u0026\u0026\r\n.supportScenarioComplite !\u003d \u0027true\u0027 ) ||\r\n( !!.supportScenario9 \u0026\u0026\r\n.supportScenarioComplite \u003d\u003d \u0027true\u0027 )",
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "Подтверждение выбора сценария поддержки",
-              "type": 4,
-              "property": "supportScenarioComplite",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": null,
-              "orderNumber": 1900,
-              "required": false,
-              "visibility": null,
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "Не найдено соответствие",
-              "type": 4,
-              "property": "notFoundScenario",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": null,
-              "orderNumber": 1910,
-              "required": false,
-              "visibility": null,
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            },
-            {
-              "caption": "Комментарий",
-              "type": 7,
-              "property": "comment",
-              "size": 2,
-              "maskName": null,
-              "mask": null,
-              "mode": null,
-              "fields": [],
-              "columns": [],
-              "actions": null,
-              "commands": null,
-              "orderNumber": 1930,
-              "required": false,
-              "visibility": null,
-              "enablement": null,
-              "obligation": null,
-              "readonly": false,
-              "selectionPaginated": true,
-              "validators": null,
-              "hint": "",
-              "historyDisplayMode": 0,
-              "tags": null,
-              "selConditions": [],
-              "selSorting": []
-            }
-          ],
-          "columns": [],
-          "actions": null,
-          "commands": null,
-          "orderNumber": 15,
-          "required": false,
-          "visibility": null,
-          "enablement": null,
-          "obligation": null,
-          "readonly": false,
-          "selectionPaginated": true,
-          "validators": null,
-          "hint": "Заполняется от верхнего уровня до необходимой детализации",
-          "historyDisplayMode": 0,
-          "tags": null,
-          "selConditions": [],
-          "selSorting": []
-        },
-        {
-          "caption": "Данные заявки",
-          "type": 0,
-          "property": "",
-          "size": 2,
-          "maskName": null,
-          "mask": null,
-          "mode": null,
-          "fields": [
-            {
-              "caption": "Тип коммуникации",
+              "caption": "Type of communication",
               "type": 5,
               "property": "typeComunication",
               "size": 2,
@@ -601,7 +129,7 @@
               "selSorting": []
             },
             {
-              "caption": "Пользователь",
+              "caption": "User",
               "type": 5,
               "property": "user",
               "size": 2,
@@ -627,7 +155,7 @@
               "selSorting": []
             },
             {
-              "caption": "Все заявки пользователя",
+              "caption": "All user requests",
               "type": 3,
               "property": "taskUser",
               "size": 2,
@@ -638,7 +166,7 @@
               "columns": [
                 {
                   "sorted": true,
-                  "caption": "Пользователь",
+                  "caption": "User",
                   "type": 2,
                   "property": "user",
                   "size": 2,
@@ -665,7 +193,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тема заявки",
+                  "caption": "Subject of request",
                   "type": 1,
                   "property": "subjectTask",
                   "size": 2,
@@ -692,7 +220,7 @@
                 },
                 {
                   "sorted": true,
-                  "caption": "Тип заявки",
+                  "caption": "Type of request",
                   "type": 7,
                   "property": "typeTask",
                   "size": 2,
@@ -735,7 +263,7 @@
               "selSorting": []
             },
             {
-              "caption": "Звонок",
+              "caption": "Call",
               "type": 5,
               "property": "call",
               "size": 2,
@@ -748,7 +276,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -758,7 +286,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -768,7 +296,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -792,7 +320,7 @@
               "selSorting": []
             },
             {
-              "caption": "Встреча",
+              "caption": "Meeting",
               "type": 5,
               "property": "metting",
               "size": 2,
@@ -805,7 +333,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -815,7 +343,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -825,7 +353,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -849,7 +377,7 @@
               "selSorting": []
             },
             {
-              "caption": "Письмо",
+              "caption": "Letter",
               "type": 5,
               "property": "letter",
               "size": 2,
@@ -862,7 +390,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -872,7 +400,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -882,7 +410,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -919,7 +447,7 @@
               "commands": [
                 {
                   "id": "CREATE",
-                  "caption": "Создать",
+                  "caption": "Create",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": false,
@@ -929,7 +457,7 @@
                 },
                 {
                   "id": "EDIT",
-                  "caption": "Править",
+                  "caption": "Edit",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -939,7 +467,7 @@
                 },
                 {
                   "id": "REMOVE",
-                  "caption": "Убрать",
+                  "caption": "Remove",
                   "visibilityCondition": null,
                   "enableCondition": null,
                   "needSelectedItem": true,
@@ -963,7 +491,7 @@
               "selSorting": []
             },
             {
-              "caption": "Тип заявки",
+              "caption": "Type of request",
               "type": 5,
               "property": "typeTask",
               "size": 2,
@@ -989,7 +517,7 @@
               "selSorting": []
             },
             {
-              "caption": "Ссылка на задачу",
+              "caption": "Task link",
               "type": 17,
               "property": "linkTask",
               "size": 2,
@@ -1015,7 +543,7 @@
               "selSorting": []
             },
             {
-              "caption": "Потребовалась консультация",
+              "caption": "Consultation required",
               "type": 4,
               "property": "consult",
               "size": 2,
@@ -1059,7 +587,7 @@
           "selSorting": []
         },
         {
-          "caption": "Сценарий поддержки",
+          "caption": "Support scenario",
           "type": 8,
           "property": "supportScenarioText",
           "size": 2,
@@ -1088,7 +616,7 @@
         },
         {
           "sorted": true,
-          "caption": "Тема заявки",
+          "caption": "subject of request",
           "type": 1,
           "property": "subjectTask",
           "size": 2,
@@ -1127,7 +655,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1137,7 +665,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -1147,7 +675,7 @@
     },
     {
       "id": "DELETE",
-      "caption": "Удалить",
+      "caption": "Delete",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,

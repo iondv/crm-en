@@ -1,13 +1,13 @@
 {
     "name": "product",
-    "namespace": "crm-ru",
-    "caption": "Продажа продукта",
+    "namespace": "crm-en",
+    "caption": "Sale of product",
     "wfClass": "product",
     "startState": "create",
     "states": [
       {
         "name": "create",
-        "caption": "Создан",
+        "caption": "Created",
         "maxPeriod": "",
         "conditions": [],
         "itemPermissions": [],
@@ -16,7 +16,7 @@
       },
       {
         "name": "sell",
-        "caption": "Продажа",
+        "caption": "On sale",
         "maxPeriod": "",
         "conditions": [],
         "itemPermissions": [],
@@ -25,7 +25,7 @@
       },
       {
         "name": "close",
-        "caption": "Закрыт",
+        "caption": "Closed",
         "maxPeriod": "",
         "conditions": [],
         "itemPermissions": [],
@@ -36,7 +36,7 @@
     "transitions": [
       {
         "name": "createInsell",
-        "caption": "Начать мероприятия по продаже",
+        "caption": "Start sale events",
         "startState": "create",
         "finishState": "sell",
         "signBefore": false,
@@ -63,13 +63,13 @@
       },
       {
         "name": "sellClose",
-        "caption": "Завершить продажу",
+        "caption": "Complete the sale",
         "startState": "sell",
         "finishState": "close",
         "signBefore": false,
         "signAfter": false,
         "confirm": true,
-        "confirmMessage": "Вы уверены что хотите завершить продажу данного продукта?",
+        "confirmMessage": "Are you sure you want to complete the sale of this product?",
         "assignments": [
           {
             "key": "state",

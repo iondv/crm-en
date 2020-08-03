@@ -4,7 +4,7 @@
       "caption": "",
       "fullFields": [
         {
-          "caption": "Тип коммуникации",
+          "caption": "Type of communication",
           "type": 5,
           "property": "typeComunication",
           "size": 2,
@@ -29,7 +29,7 @@
           "selSorting": []
         },
         {
-          "caption": "Предмет поддержки",
+          "caption": "Subject of support",
           "type": 5,
           "property": "support",
           "size": 2,
@@ -57,7 +57,7 @@
           }
         },
         {
-          "caption": "Сценарий поддержки",
+          "caption": "Support scenario",
           "type": 8,
           "property": "supportScenarioText",
           "size": 2,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "caption": "Подтверждение выбора сценария поддержки",
+          "caption": "Confirmation of support scenario selection",
           "type": 4,
           "property": "supportScenarioComplite",
           "size": 2,
@@ -110,7 +110,7 @@
           "selSorting": []
         },
         {
-          "caption": "Потребовалась консультация",
+          "caption": "Consultation required",
           "type": 4,
           "property": "consult",
           "size": 2,
@@ -135,7 +135,7 @@
           "selSorting": []
         },
         {
-          "caption": "Не найдено соответствие",
+          "caption": "No match found",
           "type": 4,
           "property": "notFoundScenario",
           "size": 2,
@@ -160,7 +160,7 @@
           "selSorting": []
         },
         {
-          "caption": "Комментарий",
+          "caption": "Comment",
           "type": 7,
           "property": "comment",
           "size": 2,
@@ -198,7 +198,7 @@
   "commands": [
     {
       "id": "SAVE",
-      "caption": "Сохранить",
+      "caption": "Save",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
@@ -208,7 +208,7 @@
     },
     {
       "id": "SAVEANDCLOSE",
-      "caption": "Сохранить и закрыть",
+      "caption": "Save and close",
       "visibilityCondition": null,
       "enableCondition": null,
       "needSelectedItem": false,
