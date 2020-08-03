@@ -19,7 +19,7 @@ let params = {
       </div>
 
       <div class="default-content hidden">
-        <div class="mb10">Для отображения сценария необходимо выбрать предмет поддержки из списка выше.</div>
+        <div class="mb10">To display the scenario, select the support item from the list above.</div>
       </div>
 
     </div>
@@ -54,7 +54,7 @@ let params = {
         $attr.addClass('loading');
         xhr = $.get(params.url + id).done(function (data) {
           data = data && data.scenario;
-          $content.html(data || '<span class="placeholder">- нет данных -</span>');
+          $content.html(data || '<span class="placeholder">- no data -</span>');
           $attr.removeClass('loading');
         });
       }
