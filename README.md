@@ -9,7 +9,7 @@ The demo version shows an example of using the system to provide technical suppo
 
 ## Demo
 
-Demo access to view the system without registration: https://crm-en.iondv.con
+Demo access to view the system without registration: https://crm-en.iondv.com
 
 Login: **demo**, password: **ion-demo**.
 
