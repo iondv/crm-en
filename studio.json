@@ -1,0 +1,187 @@
+{
+  "classes": {
+    "event": {
+      "uml": {
+        "offset": {
+          "left": 1046,
+          "top": 857
+        }
+      }
+    },
+    "eventBasic": {
+      "uml": {
+        "offset": {
+          "left": 763,
+          "top": 20
+        }
+      }
+    },
+    "labels": {
+      "uml": {
+        "offset": {
+          "left": 330,
+          "top": 714
+        }
+      }
+    },
+    "letterEvent": {
+      "uml": {
+        "offset": {
+          "left": 296,
+          "top": 475
+        }
+      }
+    },
+    "mailEvent": {
+      "uml": {
+        "offset": {
+          "left": 1020,
+          "top": 666
+        }
+      }
+    },
+    "marketing": {
+      "uml": {
+        "offset": {
+          "left": 996,
+          "top": 20
+        }
+      }
+    },
+    "mettingEvent": {
+      "uml": {
+        "offset": {
+          "left": 1247,
+          "top": 642
+        }
+      }
+    },
+    "organization": {
+      "uml": {
+        "offset": {
+          "left": 752,
+          "top": 379
+        }
+      }
+    },
+    "person": {
+      "uml": {
+        "offset": {
+          "left": 516,
+          "top": 20
+        }
+      }
+    },
+    "product": {
+      "uml": {
+        "offset": {
+          "left": 549,
+          "top": 690
+        }
+      }
+    },
+    "region": {
+      "uml": {
+        "offset": {
+          "left": 328,
+          "top": 809
+        }
+      }
+    },
+    "role": {
+      "uml": {
+        "offset": {
+          "left": 65,
+          "top": 810
+        }
+      }
+    },
+    "saleEvent": {
+      "uml": {
+        "offset": {
+          "left": 1240,
+          "top": 20
+        }
+      }
+    },
+    "saleProduct": {
+      "uml": {
+        "offset": {
+          "left": 781,
+          "top": 666
+        }
+      }
+    },
+    "selling": {
+      "uml": {
+        "offset": {
+          "left": 1234,
+          "top": 379
+        }
+      }
+    },
+    "support": {
+      "uml": {
+        "offset": {
+          "left": 52,
+          "top": 691
+        }
+      }
+    },
+    "supportScenario": {
+      "uml": {
+        "offset": {
+          "left": 996,
+          "top": 379
+        }
+      }
+    },
+    "task": {
+      "uml": {
+        "offset": {
+          "left": 20,
+          "top": 20
+        }
+      }
+    },
+    "telEvent": {
+      "uml": {
+        "offset": {
+          "left": 258,
+          "top": 20
+        }
+      }
+    },
+    "typeMarket": {
+      "uml": {
+        "offset": {
+          "left": 536,
+          "top": 857
+        }
+      }
+    },
+    "worker": {
+      "uml": {
+        "offset": {
+          "left": 499,
+          "top": 427
+        }
+      }
+    }
+  },
+  "workflows": {
+    "product": {
+      "states": {
+        "create": {},
+        "sell": {},
+        "close": {}
+      },
+      "transitions": {
+        "createInsell": {},
+        "sellClose": {}
+      }
+    }
+  },
+  "interfaces": [],
+  "changeLogs": []
+}
