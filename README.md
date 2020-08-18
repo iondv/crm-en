@@ -36,7 +36,7 @@ The application can be saved and deployed locally in the other methods described
 
 ### Git
 
-Quick start using the IONDV repository.  CRM-en on GitHub – detailed instruction.
+Quick start using the **IONDV. CRM-en** repository on GitHub – detailed instruction.
 1. Install the system environment and global dependencies according to the instructions from https://iondv.readthedocs.io/en/latest/.
 2. Clone the core, module, and application.
 3. Build and deploy the app.
